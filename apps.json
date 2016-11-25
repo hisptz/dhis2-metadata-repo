@@ -1,0 +1,43 @@
+{
+  "apps" : [
+    {
+      "id": "tabular_tracker_capture",
+      "name": "Tabular Tracker Capture",
+      "description": "Tabular Tracker Capture is an app that makes you more effective and productive when capturing lots of persons and event information. It lets you register new persons and other entities, do enrollment in programs and enter event or case information in the same screen. You can easily navigate between organisation units, time periods and enrollment status.",
+      "developer": "James Chang",
+      "organisation": "WHO",
+      "icons": [ {
+        "48": "https://www.seeklogo.net/wp-content/uploads/2012/04/who-vector.png",
+        "128": "https://www.seeklogo.net/wp-content/uploads/2012/04/who-vector.png"
+      } ],
+      "license": {
+        "name": "Creative commons",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "tags": [
+        "Indicators",
+        "Malaria",
+        "Dashboards",
+        "Aggregate"
+      ],
+      "img_large": "https://www.dhis2.org/sites/all/themes/dhis/images/appstore/tabular-tracker-capture.png",
+      "versions": [
+        {
+          "id": "upAPqrVgwK6",
+          "version": "1.2",
+          "min_platform_version": "2.17",
+          "max_platform_version": "2.20",
+          "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+          "demo_url": "http://play.dhis2.org/demo"
+        },
+        {
+          "id": "PyYnjVl5iGt",
+          "version": "1.3",
+          "min_platform_version": "2.20",
+          "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-220.zip",
+          "demo_url": "http://play.dhis2.org/demo"
+        }
+      ]
+    }
+  ]
+}
