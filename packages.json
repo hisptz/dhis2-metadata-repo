@@ -22,10 +22,10 @@
       ],
       "versions": [ {
         "version": "0.1",
-        "href": "https://dhis2.org/metadata-repo/221/sierra-leone-demo/metadata.json"
+        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/221/sierra-leone-demo/metadata.json"
       }, {
         "version": "0.2",
-        "href": "https://dhis2.org/metadata-repo/222/sierra-leone-demo/metadata.json"
+        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/221/sierra-leone-demo/metadata.json"
       } ]
     },
     {
@@ -48,10 +48,10 @@
       ],
       "versions": [ {
         "version": "0.1",
-        "href": "https://dhis2.org/metadata-repo/221/sierra-leone-demo/metadata.json"
+        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/221/trainingland-org-units/metadata.json"
       }, {
         "version": "0.2",
-        "href": "https://dhis2.org/metadata-repo/222/sierra-leone-demo/metadata.json"
+        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/221/trainingland-org-units/metadata.json"
       } ]
     },
     {
@@ -75,10 +75,10 @@
       ],
       "versions": [ {
         "version": "0.1",
-        "href": "https://dhis2.org/metadata-repo/221/sierra-leone-demo/metadata.json"
+        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/221/sims-data-elements/metadata.json"
       }, {
         "version": "0.2",
-        "href": "https://dhis2.org/metadata-repo/222/sierra-leone-demo/metadata.json"
+        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/221/sims-data-elements/metadata.json"
       } ]
     }
   ]
