@@ -1,0 +1,2156 @@
+{
+  "charts": [
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-10T15:32:48.411",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "JUvYLsNo43H"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "ky5lT0V0r4s",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-10T15:32:48.411",
+      "name": "HIV: ART 12 month retention rate - 12 months ",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "rangeAxisLabel": "ART retention rate - 12 months (%)",
+      "rangeAxisMaxValue": 100,
+      "rangeAxisMinValue": 0,
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": true,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "targetLineLabel": "90%",
+      "targetLineValue": 90,
+      "title": "ART retention rate (12 months) - last 12 months",
+      "translations": [],
+      "type": "LINE",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "dx",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-11T14:05:10.919",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "O6wdXKIZ5L2"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "bJty1TJXcPN"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "zG6feyqbeI7"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "yD3DrH0CgWd",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-11T14:05:10.919",
+      "name": "HIV: Cascade (numerators) - last 12 months",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "rangeAxisLabel": "PLHIV",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": true,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "ou",
+      "showData": true,
+      "sortOrder": 0,
+      "title": "HIV cascade - last 12 months",
+      "translations": [],
+      "type": "COLUMN",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "dx",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-11T14:31:06.031",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "O6wdXKIZ5L2"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "bJty1TJXcPN"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "zG6feyqbeI7"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "TsdE2vzr5jj",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-11T14:31:06.031",
+      "name": "HIV: Cascade (numerators) - last month",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "rangeAxisLabel": "PLHIV",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "ou",
+      "showData": true,
+      "sortOrder": 0,
+      "title": "HIV cascade - last month",
+      "translations": [],
+      "type": "COLUMN",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "dx",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-11T14:32:37.587",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "RjQu6dgcfuX"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "yAU8wDmsBnn"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "llzz0kO83Ht"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "ZPc6LarAi3G",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-11T14:32:37.587",
+      "name": "HIV: Cascade (numerators) < 1 years - last month",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "rangeAxisLabel": "PLHIV < 1 years",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "ou",
+      "showData": true,
+      "sortOrder": 0,
+      "title": "HIV cascade (numerators) < 1 year - last month",
+      "translations": [],
+      "type": "COLUMN",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "dx",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-11T14:31:52.256",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "O6wdXKIZ5L2"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "bJty1TJXcPN"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "zG6feyqbeI7"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "rjbNyOgogA8",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-11T14:31:52.256",
+      "name": "HIV: Cascade (numerators) [female] - last month",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "rangeAxisLabel": "PLHIV",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "ou",
+      "showData": true,
+      "sortOrder": 0,
+      "title": "HIV cascade (numerators) female - last month",
+      "translations": [],
+      "type": "COLUMN",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "dx",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-11T14:31:32.011",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "O6wdXKIZ5L2"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "bJty1TJXcPN"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "zG6feyqbeI7"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "yShiVPF1kfI",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-11T14:31:32.011",
+      "name": "HIV: Cascade (numerators) [male] - last month",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "rangeAxisLabel": "PLHIV",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "ou",
+      "showData": true,
+      "sortOrder": 0,
+      "title": "HIV cascade (numerators) male - last month",
+      "translations": [],
+      "type": "COLUMN",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-11T14:40:29.606",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "O6wdXKIZ5L2"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "bJty1TJXcPN"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "zG6feyqbeI7"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "KyYLnV14KCC",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-11T14:40:29.606",
+      "name": "HIV: Cascade (numerators) trend - last 12 months",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "rangeAxisLabel": "PLHIV",
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": true,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "dx",
+      "showData": false,
+      "sortOrder": 0,
+      "title": "Cascade trend - last 12 months",
+      "translations": [],
+      "type": "LINE",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "ou",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-10T15:52:20.261",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "XvcWsuHBsGR"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "XvcWsuHBsGT"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "UCAeSIxRW4R",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-10T15:52:20.261",
+      "name": "HIV: Completeness and timeliness by orgunit - last month",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": true,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-10T15:51:31.309",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "XvcWsuHBsGR"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "XvcWsuHBsGT"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "bAyiKfwn3hr",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-10T15:51:31.309",
+      "name": "HIV: Completeness and timeliness trend - last 12 months",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": true,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "LINE",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "dx",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-12-11T21:45:29.270",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "qqc4NnWVFL9"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "xCZ83jjG3pU"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "iNhShbl18dB"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "pe"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "JkMQODQX0gm",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-12-11T21:45:29.270",
+      "name": "HIV: PMTCT - last 12 months",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": true,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "ou",
+      "showData": true,
+      "sortOrder": 0,
+      "translations": [],
+      "type": "COLUMN",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "aggregationType": "DEFAULT",
+      "category": "pe",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "completedOnly": false,
+      "created": "2016-11-10T15:44:19.929",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "zqzX3zcosD5"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "hideEmptyRows": false,
+      "hideLegend": false,
+      "hideSubtitle": false,
+      "hideTitle": false,
+      "id": "vP9bd68HQU2",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-10T15:44:19.929",
+      "name": "HIV: Virologically suppressed - 12 months",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "rangeAxisDecimals": 0,
+      "rangeAxisLabel": "PLHIV tested virologically suppressed (%)",
+      "rangeAxisMaxValue": 100,
+      "rangeAxisMinValue": 0,
+      "regressionType": "NONE",
+      "relativePeriods": {
+        "last12Months": true,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": false,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "series": "dx",
+      "showData": true,
+      "sortOrder": 0,
+      "targetLineLabel": "90 %",
+      "targetLineValue": 90,
+      "title": "Virologically supressed - last 12 months",
+      "translations": [],
+      "type": "LINE",
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ],
+  "dashboardItems": [
+    {
+      "created": "2016-11-10T12:54:29.350",
+      "id": "wr8fcVpAn9e",
+      "lastUpdated": "2016-11-10T12:54:29.350",
+      "map": {
+        "id": "LCgVENfJNaY"
+      },
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "created": "2016-11-11T14:49:40.825",
+      "id": "zXeIkW6SCE6",
+      "lastUpdated": "2016-11-11T14:49:40.825",
+      "map": {
+        "id": "ZT4s3QSyXtM"
+      },
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "created": "2016-11-11T14:50:20.633",
+      "id": "NuiLac2snn1",
+      "lastUpdated": "2016-11-11T14:50:20.633",
+      "map": {
+        "id": "HbnsGLrSCP9"
+      },
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "created": "2016-11-11T14:49:31.561",
+      "id": "Uhe3yUQpQhp",
+      "lastUpdated": "2016-11-11T14:49:31.561",
+      "map": {
+        "id": "puLF21zPBDa"
+      },
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "created": "2016-11-11T14:46:06.060",
+      "id": "j21gfeBrwW4",
+      "lastUpdated": "2016-11-11T14:46:06.060",
+      "map": {
+        "id": "S2FtwrYDDnb"
+      },
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "created": "2016-11-11T14:48:54.313",
+      "id": "y14WQqHPxca",
+      "lastUpdated": "2016-11-11T14:48:54.313",
+      "map": {
+        "id": "N8ch5tm8Acu"
+      },
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "TsdE2vzr5jj"
+      },
+      "created": "2015-11-01T21:17:36.148",
+      "id": "QjiKHnjfSNr",
+      "lastUpdated": "2016-02-24T08:58:41.097",
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "yD3DrH0CgWd"
+      },
+      "created": "2015-10-27T14:38:52.151",
+      "id": "OeHs4EKInOg",
+      "lastUpdated": "2015-10-27T14:38:52.151",
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "created": "2016-11-10T12:56:30.179",
+      "id": "ImpZRhaqd6A",
+      "lastUpdated": "2016-11-10T12:56:30.179",
+      "reportTable": {
+        "id": "TXAkfcIEy92"
+      },
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "JkMQODQX0gm"
+      },
+      "created": "2016-12-11T21:45:44.416",
+      "id": "FjvBZSem8bR",
+      "lastUpdated": "2016-12-11T21:45:44.416",
+      "reports": [],
+      "resources": [],
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "KyYLnV14KCC"
+      },
+      "created": "2015-10-27T15:02:45.742",
+      "id": "L0AHXrBOrH9",
+      "lastUpdated": "2016-11-10T12:59:29.469",
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "ky5lT0V0r4s"
+      },
+      "created": "2015-10-27T15:11:17.426",
+      "id": "M1VeR5orvNu",
+      "lastUpdated": "2015-10-27T15:11:17.426",
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "vP9bd68HQU2"
+      },
+      "created": "2015-10-27T15:05:02.054",
+      "id": "VLdqBgnIpes",
+      "lastUpdated": "2015-10-27T15:05:02.054",
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "yShiVPF1kfI"
+      },
+      "created": "2016-11-10T15:24:52.952",
+      "id": "trQAXbi9qDn",
+      "lastUpdated": "2016-11-10T15:24:52.952",
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "rjbNyOgogA8"
+      },
+      "created": "2016-11-10T15:26:58.024",
+      "id": "WaVx09EjR9v",
+      "lastUpdated": "2016-11-10T15:26:58.024",
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "ZPc6LarAi3G"
+      },
+      "created": "2016-11-10T15:45:01.354",
+      "id": "PAIOVrISY9P",
+      "lastUpdated": "2016-11-10T15:45:01.354",
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "bAyiKfwn3hr"
+      },
+      "created": "2016-11-10T15:52:30.250",
+      "id": "wkQe3wk2xHW",
+      "lastUpdated": "2016-11-10T15:52:59.609",
+      "reports": [],
+      "resources": [],
+      "shape": "DOUBLE_WIDTH",
+      "translations": [],
+      "users": []
+    },
+    {
+      "chart": {
+        "id": "UCAeSIxRW4R"
+      },
+      "created": "2016-11-10T15:52:28.717",
+      "id": "EERcDFCgLsh",
+      "lastUpdated": "2016-11-10T15:52:28.717",
+      "reports": [],
+      "resources": [],
+      "shape": "NORMAL",
+      "translations": [],
+      "users": []
+    }
+  ],
+  "dashboards": [
+    {
+      "created": "2015-08-11T07:12:07.504",
+      "dashboardItems": [
+        {
+          "id": "wr8fcVpAn9e"
+        },
+        {
+          "id": "zXeIkW6SCE6"
+        },
+        {
+          "id": "NuiLac2snn1"
+        },
+        {
+          "id": "Uhe3yUQpQhp"
+        },
+        {
+          "id": "j21gfeBrwW4"
+        },
+        {
+          "id": "y14WQqHPxca"
+        },
+        {
+          "id": "QjiKHnjfSNr"
+        },
+        {
+          "id": "OeHs4EKInOg"
+        },
+        {
+          "id": "ImpZRhaqd6A"
+        },
+        {
+          "id": "FjvBZSem8bR"
+        },
+        {
+          "id": "L0AHXrBOrH9"
+        },
+        {
+          "id": "M1VeR5orvNu"
+        },
+        {
+          "id": "VLdqBgnIpes"
+        },
+        {
+          "id": "trQAXbi9qDn"
+        },
+        {
+          "id": "WaVx09EjR9v"
+        },
+        {
+          "id": "PAIOVrISY9P"
+        },
+        {
+          "id": "wkQe3wk2xHW"
+        },
+        {
+          "id": "EERcDFCgLsh"
+        }
+      ],
+      "externalAccess": false,
+      "id": "q9qKbXTDgEh",
+      "lastUpdated": "2016-12-11T21:45:56.638",
+      "name": "HIV 90-90-90 cascade",
+      "translations": []
+    }
+  ],
+  "indicatorGroups": [
+    {
+      "attributeValues": [],
+      "created": "2016-06-29T23:44:22.340",
+      "id": "udCrMpFlegu",
+      "indicators": [
+        {
+          "id": "qqc4NnWVFL9"
+        },
+        {
+          "id": "O6wdXKIZ5L2"
+        },
+        {
+          "id": "RjQu6dgcfuX"
+        },
+        {
+          "id": "mqIVTKwfWl7"
+        },
+        {
+          "id": "bJty1TJXcPN"
+        },
+        {
+          "id": "yAU8wDmsBnn"
+        },
+        {
+          "id": "zG6feyqbeI7"
+        },
+        {
+          "id": "llzz0kO83Ht"
+        },
+        {
+          "id": "iNhShbl18dB"
+        },
+        {
+          "id": "xCZ83jjG3pU"
+        },
+        {
+          "id": "JUvYLsNo43H"
+        },
+        {
+          "id": "HY6UcPnbTLI"
+        },
+        {
+          "id": "bD67D0kVEJQ"
+        },
+        {
+          "id": "zqzX3zcosD5"
+        }
+      ],
+      "lastUpdated": "2016-06-30T00:49:20.013",
+      "name": "WHO HIV",
+      "translations": []
+    }
+  ],
+  "indicatorTypes": [
+    {
+      "created": "2015-03-23T00:42:43.716",
+      "factor": 1,
+      "id": "kHy61PbChXr",
+      "lastUpdated": "2015-03-23T00:42:43.716",
+      "name": "Numerator only",
+      "number": true,
+      "translations": []
+    },
+    {
+      "created": "2015-03-23T00:41:28.852",
+      "factor": 100,
+      "id": "hmSnCXmLYwt",
+      "lastUpdated": "2015-03-23T00:41:28.855",
+      "name": "Percentage",
+      "number": false,
+      "translations": []
+    }
+  ],
+  "indicators": [
+    {
+      "annualized": false,
+      "created": "2016-12-11T21:42:24.972",
+      "decimals": 0,
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "iNhShbl18dB",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2016-12-11T21:43:21.976",
+      "name": "WHO ANC clients newly tested HIV+ and started on ART",
+      "numerator": "-1",
+      "numeratorDescription": "ANC registrants HIV+ and on ART",
+      "shortName": "ANC tested HIV+ and started ART"
+    },
+    {
+      "annualized": false,
+      "created": "2016-12-11T21:42:24.972",
+      "decimals": 0,
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "xCZ83jjG3pU",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2016-12-11T21:42:24.972",
+      "name": "WHO ANC registrants HIV+ and on ART",
+      "numerator": "-1",
+      "numeratorDescription": "ANC registrants HIV+ and on ART",
+      "shortName": "ANC registrants HIV+ and on ART"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-19T13:53:39.762",
+      "denominator": "1",
+      "denominatorDescription": "Started ART 12 months ago",
+      "id": "JUvYLsNo43H",
+      "indicatorType": {
+        "id": "hmSnCXmLYwt"
+      },
+      "lastUpdated": "2015-10-19T14:02:49.015",
+      "name": "WHO ART retention rate after 12 months (%)",
+      "numerator": "-1",
+      "numeratorDescription": "Retained on ART last 12 months",
+      "shortName": "ART 12 month retention rate (%)"
+    },
+    {
+      "annualized": false,
+      "created": "2015-05-25T05:43:45.131",
+      "denominator": "1",
+      "denominatorDescription": "HIV test positive",
+      "description": "Proportion of all HIV clients with positive test results newly put on ART",
+      "id": "HY6UcPnbTLI",
+      "indicatorType": {
+        "id": "hmSnCXmLYwt"
+      },
+      "lastUpdated": "2015-10-19T13:46:14.264",
+      "name": "WHO HIV new treatment rate (%)",
+      "numerator": "-1",
+      "numeratorDescription": "New on ART",
+      "shortName": "HIV new treatment rate (%)"
+    },
+    {
+      "annualized": false,
+      "created": "2015-05-25T05:46:02.262",
+      "denominator": "1",
+      "denominatorDescription": "HIV tests performed",
+      "description": "Percentage of all HIV tests performed that are HIV positive",
+      "id": "bD67D0kVEJQ",
+      "indicatorType": {
+        "id": "hmSnCXmLYwt"
+      },
+      "lastUpdated": "2015-11-26T19:13:01.717",
+      "name": "WHO HIV test positivity rate (%)",
+      "numerator": "-1",
+      "numeratorDescription": "HIV tests positive",
+      "shortName": "HIV test positivity (%)"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-19T14:13:49.289",
+      "denominator": "1",
+      "denominatorDescription": "PLHIV with viral load tests",
+      "id": "zqzX3zcosD5",
+      "indicatorType": {
+        "id": "hmSnCXmLYwt"
+      },
+      "lastUpdated": "2016-11-11T14:23:48.958",
+      "name": "WHO PLHIV tested that are virologically suppressed (%)",
+      "numerator": "-1",
+      "numeratorDescription": "PLHIV virologically suppressed",
+      "shortName": "Virologically suppressed (%)"
+    },
+    {
+      "annualized": false,
+      "created": "2015-03-22T13:45:24.292",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "qqc4NnWVFL9",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2015-03-22T13:53:14.975",
+      "name": "WHO ANC 1st visit total",
+      "numerator": "-1",
+      "numeratorDescription": "ANC 1st visit total",
+      "shortName": "ANC 1st visit total"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-15T09:09:47.460",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "description": "HIV tests found to be positive",
+      "id": "O6wdXKIZ5L2",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2016-05-26T14:50:47.613",
+      "name": "WHO HIV tests positive",
+      "numerator": "-1",
+      "numeratorDescription": "HIV tests positive",
+      "shortName": "HIV tests positive"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-08T07:46:47.751",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "description": "Number of HIV tests found to be positive",
+      "id": "RjQu6dgcfuX",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2016-11-10T15:49:15.387",
+      "name": "WHO HIV tests positive < 1 years",
+      "numerator": "-1",
+      "numeratorDescription": "HIV tests positive < 1 years",
+      "shortName": "HIV tests positive < 1 years"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-08T07:42:26.428",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "mqIVTKwfWl7",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2015-10-19T08:25:34.083",
+      "name": "WHO PLHIV currently on ART",
+      "numerator": "-1",
+      "numeratorDescription": "Currently on ART",
+      "shortName": "Currently on ART"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-15T09:10:23.014",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "bJty1TJXcPN",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2016-02-19T08:24:14.667",
+      "name": "WHO PLHIV new on ART",
+      "numerator": "-1",
+      "numeratorDescription": "New on ART",
+      "shortName": "New on ART"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-08T07:47:32.709",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "yAU8wDmsBnn",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2016-11-10T15:49:26.417",
+      "name": "WHO PLHIV new on ART < 1 years",
+      "numerator": "-1",
+      "numeratorDescription": "New on ART < 1 years",
+      "shortName": "New on ART < 1 years"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-08T08:02:24.949",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "zG6feyqbeI7",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2015-10-16T13:14:16.616",
+      "name": "WHO PLHIV retained on ART last 12 months",
+      "numerator": "-1",
+      "numeratorDescription": "PLHIV retained on ART last 12 months",
+      "shortName": "Retained on ART last 12 months"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-08T08:01:50.331",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "llzz0kO83Ht",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2016-11-10T15:49:48.561",
+      "name": "WHO PLHIV retained on ART last 12 months < 1 years",
+      "numerator": "-1",
+      "numeratorDescription": "PLHIV retained on ART last 12 months < 1 years",
+      "shortName": "Retained on ART last 12 months < 1 years"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-08T08:01:50.331",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "XvcWsuHBsGR",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2016-11-10T15:49:48.561",
+      "name": "WHO HIV reporting rate",
+      "numerator": "-1",
+      "numeratorDescription": "HIV reporting rate",
+      "shortName": "HIV reporting rate"
+    },
+    {
+      "annualized": false,
+      "created": "2015-10-08T08:01:50.331",
+      "denominator": "1",
+      "denominatorDescription": "1",
+      "id": "XvcWsuHBsGT",
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      },
+      "lastUpdated": "2016-11-10T15:49:48.561",
+      "name": "WHO HIV reporting timeliness",
+      "numerator": "-1",
+      "numeratorDescription": "HIV reporting timeliness",
+      "shortName": "HIV reporting timeliness"
+    }
+  ],
+  "mapViews": [
+    {
+      "attributeDimensions": [],
+      "classes": 3,
+      "colorHigh": "00ff00",
+      "colorLow": "ff0000",
+      "colorScale": "#fc8d59,#ffffbf,#91cf60",
+      "columnDimensions": [
+        "dx"
+      ],
+      "created": "2016-11-26T09:33:24.000",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "JUvYLsNo43H"
+          }
+        }
+      ],
+      "dataElementDimensions": [],
+      "eventClustering": false,
+      "eventPointRadius": 0,
+      "hidden": false,
+      "id": "bC6HwIKmmui",
+      "itemOrganisationUnitGroups": [],
+      "labelFontColor": "###000000",
+      "labelFontSize": "11px",
+      "labelFontStyle": "normal",
+      "labelFontWeight": "normal",
+      "labels": false,
+      "lastUpdated": "2016-11-26T09:33:24.000",
+      "layer": "thematic1",
+      "method": 2,
+      "opacity": 0.8,
+      "organisationUnitLevels": [
+        4
+      ],
+      "organisationUnits": [
+        {
+          "id": "replaceRoot"
+        }
+      ],
+      "periods": [],
+      "radiusHigh": 5,
+      "radiusLow": 15,
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "translations": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "attributeDimensions": [],
+      "classes": 3,
+      "colorHigh": "00ff00",
+      "colorLow": "ff0000",
+      "colorScale": "#fc8d59,#ffffbf,#91cf60",
+      "columnDimensions": [
+        "dx"
+      ],
+      "created": "2016-11-26T09:33:24.000",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "JUvYLsNo43H"
+          }
+        }
+      ],
+      "dataElementDimensions": [],
+      "eventClustering": false,
+      "eventPointRadius": 0,
+      "hidden": false,
+      "id": "iy6AhHdXF7A",
+      "itemOrganisationUnitGroups": [],
+      "labelFontColor": "####000000",
+      "labelFontSize": "11px",
+      "labelFontStyle": "normal",
+      "labelFontWeight": "normal",
+      "labels": false,
+      "lastUpdated": "2016-11-26T09:33:24.000",
+      "layer": "thematic1",
+      "method": 2,
+      "opacity": 0.8,
+      "organisationUnitLevels": [
+        3
+      ],
+      "organisationUnits": [
+        {
+          "id": "replaceRoot"
+        }
+      ],
+      "periods": [],
+      "radiusHigh": 5,
+      "radiusLow": 15,
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "translations": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "attributeDimensions": [],
+      "classes": 5,
+      "colorHigh": "00ff00",
+      "colorLow": "ff0000",
+      "colorScale": "#ffffd4,#fed98e,#fe9929,#d95f0e,#993404",
+      "columnDimensions": [
+        "dx"
+      ],
+      "created": "2016-11-26T09:33:24.000",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "O6wdXKIZ5L2"
+          }
+        }
+      ],
+      "dataElementDimensions": [],
+      "eventClustering": false,
+      "eventPointRadius": 0,
+      "hidden": false,
+      "id": "RH3r4RHsAjp",
+      "itemOrganisationUnitGroups": [],
+      "labelFontColor": "#000000",
+      "labelFontSize": "11px",
+      "labelFontStyle": "normal",
+      "labelFontWeight": "normal",
+      "labels": false,
+      "lastUpdated": "2016-11-26T09:33:24.000",
+      "layer": "thematic1",
+      "method": 2,
+      "opacity": 0.8,
+      "organisationUnitLevels": [
+        4
+      ],
+      "organisationUnits": [
+        {
+          "id": "replaceRoot"
+        }
+      ],
+      "periods": [],
+      "radiusHigh": 15,
+      "radiusLow": 5,
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "translations": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "attributeDimensions": [],
+      "classes": 5,
+      "colorHigh": "00ff00",
+      "colorLow": "ff0000",
+      "colorScale": "#ffffd4,#fed98e,#fe9929,#d95f0e,#993404",
+      "columnDimensions": [
+        "dx"
+      ],
+      "created": "2016-11-26T09:33:24.000",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "bJty1TJXcPN"
+          }
+        }
+      ],
+      "dataElementDimensions": [],
+      "eventClustering": false,
+      "eventPointRadius": 0,
+      "hidden": false,
+      "id": "WeAvtM9BKUk",
+      "itemOrganisationUnitGroups": [],
+      "labelFontColor": "##000000",
+      "labelFontSize": "11px",
+      "labelFontStyle": "normal",
+      "labelFontWeight": "normal",
+      "labels": false,
+      "lastUpdated": "2016-11-26T09:33:24.000",
+      "layer": "thematic1",
+      "method": 2,
+      "opacity": 0.8,
+      "organisationUnitLevels": [
+        4
+      ],
+      "organisationUnits": [
+        {
+          "id": "replaceRoot"
+        }
+      ],
+      "periods": [],
+      "radiusHigh": 15,
+      "radiusLow": 5,
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "translations": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    },
+    {
+      "attributeDimensions": [],
+      "classes": 3,
+      "colorHigh": "00ff00",
+      "colorLow": "ff0000",
+      "colorScale": "#fc8d59,#ffffbf,#91cf60",
+      "columnDimensions": [
+        "dx"
+      ],
+      "created": "2016-11-26T09:33:24.000",
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "HY6UcPnbTLI"
+          }
+        }
+      ],
+      "dataElementDimensions": [],
+      "eventClustering": false,
+      "eventPointRadius": 0,
+      "hidden": false,
+      "id": "Cf2BvHHbt3c",
+      "itemOrganisationUnitGroups": [],
+      "labelFontColor": "####000000",
+      "labelFontSize": "11px",
+      "labelFontStyle": "normal",
+      "labelFontWeight": "normal",
+      "labels": false,
+      "lastUpdated": "2016-11-26T09:33:24.000",
+      "layer": "thematic1",
+      "method": 2,
+      "opacity": 0.8,
+      "organisationUnitLevels": [
+        4
+      ],
+      "organisationUnits": [
+        {
+          "id": "replaceRoot"
+        }
+      ],
+      "periods": [],
+      "radiusHigh": 5,
+      "radiusLow": 10,
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "translations": [],
+      "userOrganisationUnit": false,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ],
+  "maps": [
+    {
+      "basemap": "googleStreets",
+      "created": "2016-11-11T08:57:21.946",
+      "externalAccess": false,
+      "id": "HbnsGLrSCP9",
+      "lastUpdated": "2016-11-11T08:57:21.946",
+      "mapViews": [
+        {
+          "id": "bC6HwIKmmui"
+        }
+      ],
+      "name": "HIV: ART retention rate (12 months) - last month",
+      "zoom": 2
+    },
+    {
+      "basemap": "googleStreets",
+      "created": "2016-11-11T14:48:27.081",
+      "externalAccess": false,
+      "id": "N8ch5tm8Acu",
+      "lastUpdated": "2016-11-11T14:48:27.082",
+      "mapViews": [
+        {
+          "id": "iy6AhHdXF7A"
+        }
+      ],
+      "name": "HIV: ART retention rate by district - last month",
+      "zoom": 2
+    },
+    {
+      "basemap": "googleStreets",
+      "created": "2016-11-10T12:53:19.073",
+      "externalAccess": false,
+      "id": "LCgVENfJNaY",
+      "lastUpdated": "2016-11-10T12:53:19.073",
+      "mapViews": [
+        {
+          "id": "RH3r4RHsAjp"
+        }
+      ],
+      "name": "HIV: HIV positive tests by facility - last month",
+      "zoom": 2
+    },
+    {
+      "basemap": "googleStreets",
+      "created": "2016-11-10T15:18:13.171",
+      "externalAccess": false,
+      "id": "ZT4s3QSyXtM",
+      "lastUpdated": "2016-11-10T15:18:13.171",
+      "mapViews": [
+        {
+          "id": "WeAvtM9BKUk"
+        }
+      ],
+      "name": "HIV: New on ART by facility - last month",
+      "zoom": 2
+    },
+    {
+      "basemap": "googleStreets",
+      "created": "2016-11-11T10:54:27.237",
+      "externalAccess": false,
+      "id": "S2FtwrYDDnb",
+      "lastUpdated": "2016-11-11T10:54:27.237",
+      "mapViews": [
+        {
+          "id": "N5dgn3TMIrg"
+        }
+      ],
+      "name": "HIV: New treatment rate by district - last month",
+      "zoom": 2
+    },
+    {
+      "basemap": "googleStreets",
+      "created": "2016-11-11T10:51:38.214",
+      "externalAccess": false,
+      "id": "puLF21zPBDa",
+      "lastUpdated": "2016-11-11T10:51:38.215",
+      "mapViews": [
+        {
+          "id": "Cf2BvHHbt3c"
+        }
+      ],
+      "name": "HIV: New treatment rate by facility - last month",
+      "zoom": 2
+    }
+  ],
+  "reportTables": [
+    {
+      "aggregationType": "DEFAULT",
+      "categoryDimensions": [],
+      "categoryOptionGroups": [],
+      "colSubTotals": false,
+      "colTotals": false,
+      "columnDimensions": [
+        "pe"
+      ],
+      "completedOnly": false,
+      "created": "2016-11-11T14:16:34.452",
+      "cumulative": false,
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "mqIVTKwfWl7"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "bD67D0kVEJQ"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "O6wdXKIZ5L2"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "bJty1TJXcPN"
+          }
+        },
+        {
+          "dataDimensionItemType": "INDICATOR",
+          "indicator": {
+            "id": "zG6feyqbeI7"
+          }
+        }
+      ],
+      "dataElementGroups": [],
+      "digitGroupSeparator": "SPACE",
+      "displayDensity": "NORMAL",
+      "externalAccess": false,
+      "filterDimensions": [
+        "ou"
+      ],
+      "fontSize": "NORMAL",
+      "hideEmptyRows": false,
+      "id": "TXAkfcIEy92",
+      "itemOrganisationUnitGroups": [],
+      "lastUpdated": "2016-11-11T14:16:34.452",
+      "legendDisplayStyle": "FILL",
+      "name": "HIV: Cascade [by sex] - last month",
+      "organisationUnitGroups": [],
+      "organisationUnitLevels": [],
+      "organisationUnits": [],
+      "periods": [],
+      "regression": false,
+      "relativePeriods": {
+        "last12Months": false,
+        "last12Weeks": false,
+        "last2SixMonths": false,
+        "last3Months": false,
+        "last4Quarters": false,
+        "last4Weeks": false,
+        "last52Weeks": false,
+        "last5FinancialYears": false,
+        "last5Years": false,
+        "last6BiMonths": false,
+        "last6Months": false,
+        "lastBimonth": false,
+        "lastFinancialYear": false,
+        "lastMonth": true,
+        "lastQuarter": false,
+        "lastSixMonth": false,
+        "lastWeek": false,
+        "lastYear": false,
+        "monthsLastYear": false,
+        "monthsThisYear": false,
+        "quartersLastYear": false,
+        "quartersThisYear": false,
+        "thisBimonth": false,
+        "thisFinancialYear": false,
+        "thisMonth": false,
+        "thisQuarter": false,
+        "thisSixMonth": false,
+        "thisWeek": false,
+        "thisYear": false
+      },
+      "reportParams": {
+        "paramGrandParentOrganisationUnit": false,
+        "paramOrganisationUnit": false,
+        "paramParentOrganisationUnit": false,
+        "paramReportingPeriod": false
+      },
+      "rowDimensions": [
+        "dx"
+      ],
+      "rowSubTotals": false,
+      "rowTotals": true,
+      "showDimensionLabels": true,
+      "showHierarchy": false,
+      "skipRounding": false,
+      "sortOrder": 0,
+      "topLimit": 0,
+      "translations": [],
+      "userOrganisationUnit": true,
+      "userOrganisationUnitChildren": false,
+      "userOrganisationUnitGrandChildren": false
+    }
+  ]
+}
