@@ -1,0 +1,36 @@
+{
+  "system": {
+    "id": "eed3d451-4ff5-4193-b951-ffcc68954299",
+    "rev": "2efd740",
+    "version": "2.26",
+    "date": "2017-04-27T12:41:24.867"
+  },
+  "indicators": [
+    {
+      "code": "IN_mu462",
+      "lastUpdated": "2017-04-27T12:40:24.355",
+      "id": "Re44fIn0pTQ",
+      "created": "2012-11-05T11:16:29.054",
+      "name": "mukulu 1-3 Dropout Rate",
+      "shortName": "ANC 1-3 Dropout Rate",
+      "publicAccess": "rw------",
+      "description": "mukulu Indicates the percentage of clients dropping out between the 1st and the 3rd ANC visit. Calculated as the difference between ANC1 and ANC3 by the ANC 1 visits.",
+      "denominatorDescription": "Total 1st ANC visits",
+      "numeratorDescription": "ANC1-ANC3",
+      "numerator": "#{fbfJHSPpUQD.pq2XI5kz2BY}+#{fbfJHSPpUQD.PT59n8BQbqM}-#{Jtf34kNZhzP.pq2XI5kz2BY}-#{Jtf34kNZhzP.PT59n8BQbqM}",
+      "denominator": "#{fbfJHSPpUQD.pq2XI5kz2BY}+#{fbfJHSPpUQD.PT59n8BQbqM}",
+      "annualized": false,
+      "indicatorType": {
+        "id": "bWuNrMHEoZ0"
+      },
+      "user": {
+        "id": "GOLswS44mh8"
+      },
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": [],
+      "legendSets": []
+    }
+  ]
+}

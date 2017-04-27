@@ -80,6 +80,30 @@
         "version": "0.2",
         "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/221/sims-data-elements/metadata.json"
       } ]
+    },
+    {
+      "id": "rajab-metadata",
+      "name": "Rajab Metadata",
+      "organization": "HISPTZ",
+      "description": "SIMS data elements",
+      "url": "https://about.com/SLdemo.html",
+      "icons": [ {
+        "48": "https://www.seeklogo.net/wp-content/uploads/2012/04/who-vector.png",
+        "128": "https://www.seeklogo.net/wp-content/uploads/2012/04/who-vector.png"
+      } ],
+      "license": {
+        "name": "Creative commons",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "tags": [
+        "Data quality",
+        "Dashboards",
+        "Aggregate"
+      ],
+      "versions": [ {
+        "version": "0.1",
+        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/26/rajab-metadata/metadata.json"
+      } ]
     }
   ]
 }
