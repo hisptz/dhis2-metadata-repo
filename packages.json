@@ -103,7 +103,7 @@
       "versions": [ {
         "version": "0.1",
         "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/26/rajab-metadata/metadata.json"
-      },
+      }]},
         {
         "id": "who-hiv-dash",
         "name": "[TEST] WHO HIV Dashboards",

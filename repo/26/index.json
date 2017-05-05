@@ -64,7 +64,7 @@
         "versions": [{
             "version": "0.2",
             "url": "https://raw.githubusercontent.com/dhis2/dhis2-metadata-repo/master/repo/26/sims-data-elements/metadata.json"
-        },
+        }]},
         {
         "id": "who-hiv-dash",
         "name": "[TEST] WHO HIV Dashboards",
