@@ -125,7 +125,7 @@
         ],
         "versions": [{
             "version": "0.1",
-            "url": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/26/aggregate-hiv-dashboard/metadata.json"
+            "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/26/aggregate-hiv-dashboard/metadata.json"
         }]
     }
   ]
