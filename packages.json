@@ -103,7 +103,30 @@
       "versions": [ {
         "version": "0.1",
         "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/26/rajab-metadata/metadata.json"
-      } ]
+      },
+        {
+        "id": "who-hiv-dash",
+        "name": "[TEST] WHO HIV Dashboards",
+        "organization": "WHO",
+        "description": "WHO HIV dashboard templates. Include dashboard (with content) and indicators.",
+        "url": "http://www.who.int",
+        "icons": [{
+            "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+            "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+        }],
+        "license": {
+            "name": "?",
+            "url": "https://who.int"
+        },
+        "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+        ],
+        "versions": [{
+            "version": "0.1",
+            "url": "https://raw.githubusercontent.com/dhis2/dhis2-metadata-repo/master/repo/26/aggregate-hiv-dashboard/metadata.json"
+        }]
     }
   ]
 }
