@@ -1694,9 +1694,7 @@
       "latitude": -67.48885970682863, 
       "longitude": 164.65759277343753, 
       "mapViews": [
-        {
-          "id": "n9eNyBbRsyj"
-        }
+
       ], 
       "name": "HIV: ART retention rate - last month", 
       "publicAccess": "r-------", 
@@ -1711,9 +1709,7 @@
       "latitude": -67.48885970682863, 
       "longitude": 164.65759277343753, 
       "mapViews": [
-        {
-          "id": "DpfXDF2d0KO"
-        }
+
       ], 
       "name": "HIV: HIV positive tests - last month", 
       "publicAccess": "r-------", 
@@ -1728,9 +1724,7 @@
       "latitude": -67.48885970682863, 
       "longitude": 164.65759277343753, 
       "mapViews": [
-        {
-          "id": "JJLX0DhVYI0"
-        }
+
       ], 
       "name": "HIV: HIV test positivity rate - last month", 
       "publicAccess": "r-------", 
@@ -1745,9 +1739,7 @@
       "latitude": -67.48885970682863, 
       "longitude": 164.65690612792972, 
       "mapViews": [
-        {
-          "id": "QDC4IMfFHlD"
-        }
+
       ], 
       "name": "HIV: Newly started on ART - last month", 
       "publicAccess": "r-------", 
@@ -1762,9 +1754,7 @@
       "latitude": -67.48885970682863, 
       "longitude": 164.65759277343753, 
       "mapViews": [
-        {
-          "id": "QTaZMdV8pBO"
-        }
+
       ], 
       "name": "HIV: PLHIV currently on ART - last month", 
       "publicAccess": "r-------", 
