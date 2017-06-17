@@ -25,7 +25,8 @@
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -112,7 +113,8 @@
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -199,7 +201,8 @@
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -286,7 +289,8 @@
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -375,7 +379,8 @@
       "filterDimensions": [
         "ou", 
         "pe"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -462,7 +467,8 @@
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -543,7 +549,8 @@
       "externalAccess": false, 
       "filterDimensions": [
         "ou"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -618,7 +625,8 @@
       "externalAccess": false, 
       "filterDimensions": [
         "ou"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -699,7 +707,8 @@
       "externalAccess": false, 
       "filterDimensions": [
         "ou"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -779,7 +788,8 @@
       "externalAccess": false, 
       "filterDimensions": [
         "ou"
-      ], 
+      ],
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
@@ -1626,7 +1636,8 @@
             "id": "mqIVTKwfWl7"
           }
         }
-      ], 
+      ],
+
       "dataElementDimensions": [], 
       "eventClustering": false, 
       "eventPointRadius": 0, 
@@ -1832,7 +1843,8 @@
       "filterDimensions": [
         "pe"
       ], 
-      "fontSize": "NORMAL", 
+      "fontSize": "NORMAL",
+      "hideEmptyRowItems": "NONE",
       "hideEmptyRows": false, 
       "id": "rVQuFoZEf1P", 
       "itemOrganisationUnitGroups": [], 

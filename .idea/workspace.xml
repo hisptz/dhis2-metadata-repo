@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc02acab-4132-43b3-8241-7107297d9296" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/repo/26/aggregate-hiv-dashboard/metadata.json" afterPath="$PROJECT_DIR$/repo/26/aggregate-hiv-dashboard/metadata.json" />
-    </list>
+    <list default="true" id="bc02acab-4132-43b3-8241-7107297d9296" name="Default" comment="" />
     <ignored path="dhis2-metadata-repo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="metadata.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/repo/26/aggregate-hiv-dashboard/metadata.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="1741" column="8" lean-forward="false" selection-start-line="1741" selection-start-column="8" selection-end-line="1741" selection-end-column="8" />
+            <state relative-caret-position="-3880">
+              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="e#44531#46712#0" expanded="false" />
               </folding>
@@ -187,12 +185,12 @@
       <updated>1494002533286</updated>
       <workItem from="1494002534383" duration="97000" />
       <workItem from="1497694331002" duration="680000" />
-      <workItem from="1497696623506" duration="708000" />
+      <workItem from="1497696623506" duration="1419000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1485000" />
+    <option name="totallyTimeSpent" value="2196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -287,8 +285,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/repo/26/aggregate-hiv-dashboard/metadata.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="1741" column="8" lean-forward="false" selection-start-line="1741" selection-start-column="8" selection-end-line="1741" selection-end-column="8" />
+        <state relative-caret-position="-3880">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="e#44531#46712#0" expanded="false" />
           </folding>
