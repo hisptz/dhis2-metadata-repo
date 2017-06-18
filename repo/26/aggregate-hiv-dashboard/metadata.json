@@ -1,4 +1,75 @@
 {
+  "categoryOptionGroupSets": [
+    {
+      "categoryOptionGroups": [
+        {
+          "id": "bqoVhX2RfG4"
+        }, 
+        {
+          "id": "EVYKU2fIc6G"
+        }, 
+        {
+          "id": "SZJNeRyrh22"
+        }
+      ], 
+      "created": "2017-06-04T19:55:56.555", 
+      "dataDimension": true, 
+      "dataDimensionType": "DISAGGREGATION", 
+      "description": "Sex (with unknown)", 
+      "id": "XxEFGdwxOJ0", 
+      "lastUpdated": "2017-06-04T20:01:49.934", 
+      "name": "Sex (with unknown)", 
+      "publicAccess": "r-------", 
+      "translations": []
+    }
+  ], 
+  "categoryOptionGroups": [
+    {
+      "attributeValues": [], 
+      "categoryOptionGroupSet": {
+        "id": "XxEFGdwxOJ0"
+      }, 
+      "categoryOptions": [], 
+      "created": "2017-06-04T19:55:10.467", 
+      "dataDimensionType": "DISAGGREGATION", 
+      "id": "bqoVhX2RfG4", 
+      "lastUpdated": "2017-06-04T19:55:10.467", 
+      "name": "Female", 
+      "publicAccess": "r-------", 
+      "shortName": "Female", 
+      "translations": []
+    }, 
+    {
+      "attributeValues": [], 
+      "categoryOptionGroupSet": {
+        "id": "XxEFGdwxOJ0"
+      }, 
+      "categoryOptions": [], 
+      "created": "2017-06-04T19:54:57.021", 
+      "dataDimensionType": "DISAGGREGATION", 
+      "id": "EVYKU2fIc6G", 
+      "lastUpdated": "2017-06-04T19:54:57.021", 
+      "name": "Male", 
+      "publicAccess": "r-------", 
+      "shortName": "Male", 
+      "translations": []
+    }, 
+    {
+      "attributeValues": [], 
+      "categoryOptionGroupSet": {
+        "id": "XxEFGdwxOJ0"
+      }, 
+      "categoryOptions": [], 
+      "created": "2017-06-04T19:55:19.838", 
+      "dataDimensionType": "DISAGGREGATION", 
+      "id": "SZJNeRyrh22", 
+      "lastUpdated": "2017-06-04T19:55:19.838", 
+      "name": "Unknown sex", 
+      "publicAccess": "r-------", 
+      "shortName": "Unknown sex", 
+      "translations": []
+    }
+  ], 
   "charts": [
     {
       "aggregationType": "DEFAULT", 
@@ -22,18 +93,18 @@
         }
       ], 
       "dataElementGroups": [], 
+      "description": "[MODIFY]: \n* Insert dataset completeness [Placeholder] HIV Monthly Facility Report Reporting rate\n* Insert dataset completeness [Placeholder] HIV Monthly Facility Report Reporting rate on time\n [END]\n\n The chart will shows data completeness and timeliness by orgunit for the last month. \nThe completeness and timeliness indicators should be used to monitor performance and assess the validity of the data prior to analysis.", 
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
-      ],
-      "hideEmptyRowItems": "NONE",
+      ], 
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
       "hideTitle": false, 
       "id": "UCAeSIxRW4R", 
       "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2016-11-10T15:52:20.261", 
+      "lastUpdated": "2017-06-17T12:21:17.332", 
       "name": "HIV: Completeness and timeliness by orgunit - last month", 
       "organisationUnitGroups": [], 
       "organisationUnitLevels": [], 
@@ -88,6 +159,193 @@
       "categoryDimensions": [], 
       "categoryOptionGroups": [], 
       "completedOnly": false, 
+      "created": "2017-01-25T11:59:29.613", 
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "RjQu6dgcfuX"
+          }
+        }, 
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "yAU8wDmsBnn"
+          }
+        }, 
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "llzz0kO83Ht"
+          }
+        }
+      ], 
+      "dataElementGroups": [], 
+      "description": "For infants (children < 1 year), the number of HIV positive tests, PLHIV newly on ART and PLHIV retained on treatment for 12 months, over the past 3 months.\nMonitoring HIV programme effectiveness for test and treat policy and retention on treatment over time among infants.", 
+      "externalAccess": false, 
+      "filterDimensions": [
+        "pe"
+      ], 
+      "hideEmptyRows": false, 
+      "hideLegend": false, 
+      "hideSubtitle": false, 
+      "hideTitle": false, 
+      "id": "PlUJnz7r1hE", 
+      "itemOrganisationUnitGroups": [], 
+      "lastUpdated": "2017-06-17T12:12:40.346", 
+      "name": "HIV: HIV cascade < 1 years - last 3 months", 
+      "organisationUnitGroups": [], 
+      "organisationUnitLevels": [], 
+      "organisationUnits": [], 
+      "periods": [], 
+      "publicAccess": "r-------", 
+      "rangeAxisLabel": "PLHIV < 1 years", 
+      "regressionType": "NONE", 
+      "relativePeriods": {
+        "last12Months": false, 
+        "last12Weeks": false, 
+        "last2SixMonths": false, 
+        "last3Months": true, 
+        "last4Quarters": false, 
+        "last4Weeks": false, 
+        "last52Weeks": false, 
+        "last5FinancialYears": false, 
+        "last5Years": false, 
+        "last6BiMonths": false, 
+        "last6Months": false, 
+        "lastBimonth": false, 
+        "lastFinancialYear": false, 
+        "lastMonth": false, 
+        "lastQuarter": false, 
+        "lastSixMonth": false, 
+        "lastWeek": false, 
+        "lastYear": false, 
+        "monthsLastYear": false, 
+        "monthsThisYear": false, 
+        "quartersLastYear": false, 
+        "quartersThisYear": false, 
+        "thisBimonth": false, 
+        "thisFinancialYear": false, 
+        "thisMonth": false, 
+        "thisQuarter": false, 
+        "thisSixMonth": false, 
+        "thisWeek": false, 
+        "thisYear": false
+      }, 
+      "series": "ou", 
+      "showData": true, 
+      "sortOrder": 0, 
+      "translations": [], 
+      "type": "COLUMN", 
+      "userOrganisationUnit": true, 
+      "userOrganisationUnitChildren": false, 
+      "userOrganisationUnitGrandChildren": false
+    }, 
+    {
+      "aggregationType": "DEFAULT", 
+      "category": "dx", 
+      "categoryDimensions": [], 
+      "categoryOptionGroups": [
+        {
+          "id": "bqoVhX2RfG4"
+        }, 
+        {
+          "id": "EVYKU2fIc6G"
+        }, 
+        {
+          "id": "SZJNeRyrh22"
+        }
+      ], 
+      "completedOnly": false, 
+      "created": "2017-06-04T19:58:39.302", 
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "O6wdXKIZ5L2"
+          }
+        }, 
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "bJty1TJXcPN"
+          }
+        }, 
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "zG6feyqbeI7"
+          }
+        }
+      ], 
+      "dataElementGroups": [], 
+      "description": "HIV positive tests, PLHIV newly on ART and PLHIV retained on treatment over the past 3 months by gender.\nFor monitoring HIV programme effectiveness for test and treat policy and retention on treatment over time by gender.", 
+      "externalAccess": false, 
+      "filterDimensions": [
+        "ou", 
+        "pe"
+      ], 
+      "hideEmptyRows": false, 
+      "hideLegend": false, 
+      "hideSubtitle": false, 
+      "hideTitle": false, 
+      "id": "W9BIjYTO9Py", 
+      "itemOrganisationUnitGroups": [], 
+      "lastUpdated": "2017-06-17T12:17:54.322", 
+      "name": "HIV: HIV cascade by gender - last 3 months", 
+      "organisationUnitGroups": [], 
+      "organisationUnitLevels": [], 
+      "organisationUnits": [], 
+      "periods": [], 
+      "publicAccess": "r-------", 
+      "rangeAxisLabel": "PLHIV", 
+      "regressionType": "NONE", 
+      "relativePeriods": {
+        "last12Months": false, 
+        "last12Weeks": false, 
+        "last2SixMonths": false, 
+        "last3Months": true, 
+        "last4Quarters": false, 
+        "last4Weeks": false, 
+        "last52Weeks": false, 
+        "last5FinancialYears": false, 
+        "last5Years": false, 
+        "last6BiMonths": false, 
+        "last6Months": false, 
+        "lastBimonth": false, 
+        "lastFinancialYear": false, 
+        "lastMonth": false, 
+        "lastQuarter": false, 
+        "lastSixMonth": false, 
+        "lastWeek": false, 
+        "lastYear": false, 
+        "monthsLastYear": false, 
+        "monthsThisYear": false, 
+        "quartersLastYear": false, 
+        "quartersThisYear": false, 
+        "thisBimonth": false, 
+        "thisFinancialYear": false, 
+        "thisMonth": false, 
+        "thisQuarter": false, 
+        "thisSixMonth": false, 
+        "thisWeek": false, 
+        "thisYear": false
+      }, 
+      "series": "XxEFGdwxOJ0", 
+      "showData": true, 
+      "sortOrder": 0, 
+      "translations": [], 
+      "type": "COLUMN", 
+      "userOrganisationUnit": true, 
+      "userOrganisationUnitChildren": false, 
+      "userOrganisationUnitGrandChildren": false
+    }, 
+    {
+      "aggregationType": "DEFAULT", 
+      "category": "dx", 
+      "categoryDimensions": [], 
+      "categoryOptionGroups": [], 
+      "completedOnly": false, 
       "created": "2016-11-11T14:05:10.919", 
       "dataDimensionItems": [
         {
@@ -110,18 +368,18 @@
         }
       ], 
       "dataElementGroups": [], 
+      "description": "HIV positive tests, PLHIV newly on ART and PLHIV retained on treatment over the past 12 months.\nFor monitoring HIV programme effectiveness for test and treat policy and retention on treatment over time.", 
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
-      ],
-      "hideEmptyRowItems": "NONE",
+      ], 
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
       "hideTitle": false, 
       "id": "yD3DrH0CgWd", 
       "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2016-11-11T14:05:10.919", 
+      "lastUpdated": "2017-06-17T11:57:03.349", 
       "name": "HIV: HIV cascade - last 12 months", 
       "organisationUnitGroups": [], 
       "organisationUnitLevels": [], 
@@ -198,18 +456,18 @@
         }
       ], 
       "dataElementGroups": [], 
+      "description": "HIV positive tests, PLHIV newly on ART and PLHIV retained on treatment over the past 3 months.\nFor monitoring HIV programme effectiveness for test and treat policy and retention on treatment over time.\n", 
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
-      ],
-      "hideEmptyRowItems": "NONE",
+      ], 
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
       "hideTitle": false, 
       "id": "wqNNAijqTb8", 
       "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2017-01-25T11:50:47.419", 
+      "lastUpdated": "2017-06-17T11:57:51.069", 
       "name": "HIV: HIV cascade - last 3 months", 
       "organisationUnitGroups": [], 
       "organisationUnitLevels": [], 
@@ -264,185 +522,7 @@
       "categoryDimensions": [], 
       "categoryOptionGroups": [], 
       "completedOnly": false, 
-      "created": "2017-01-25T11:59:29.613", 
-      "dataDimensionItems": [
-        {
-          "dataDimensionItemType": "INDICATOR", 
-          "indicator": {
-            "id": "RjQu6dgcfuX"
-          }
-        }, 
-        {
-          "dataDimensionItemType": "INDICATOR", 
-          "indicator": {
-            "id": "yAU8wDmsBnn"
-          }
-        }, 
-        {
-          "dataDimensionItemType": "INDICATOR", 
-          "indicator": {
-            "id": "llzz0kO83Ht"
-          }
-        }
-      ], 
-      "dataElementGroups": [], 
-      "externalAccess": false, 
-      "filterDimensions": [
-        "pe"
-      ],
-      "hideEmptyRowItems": "NONE",
-      "hideEmptyRows": false, 
-      "hideLegend": false, 
-      "hideSubtitle": false, 
-      "hideTitle": false, 
-      "id": "PlUJnz7r1hE", 
-      "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2017-01-25T11:59:29.613", 
-      "name": "HIV: HIV cascade < 1 years - last 3 months", 
-      "organisationUnitGroups": [], 
-      "organisationUnitLevels": [], 
-      "organisationUnits": [], 
-      "periods": [], 
-      "publicAccess": "r-------", 
-      "rangeAxisLabel": "PLHIV < 1 years", 
-      "regressionType": "NONE", 
-      "relativePeriods": {
-        "last12Months": false, 
-        "last12Weeks": false, 
-        "last2SixMonths": false, 
-        "last3Months": true, 
-        "last4Quarters": false, 
-        "last4Weeks": false, 
-        "last52Weeks": false, 
-        "last5FinancialYears": false, 
-        "last5Years": false, 
-        "last6BiMonths": false, 
-        "last6Months": false, 
-        "lastBimonth": false, 
-        "lastFinancialYear": false, 
-        "lastMonth": false, 
-        "lastQuarter": false, 
-        "lastSixMonth": false, 
-        "lastWeek": false, 
-        "lastYear": false, 
-        "monthsLastYear": false, 
-        "monthsThisYear": false, 
-        "quartersLastYear": false, 
-        "quartersThisYear": false, 
-        "thisBimonth": false, 
-        "thisFinancialYear": false, 
-        "thisMonth": false, 
-        "thisQuarter": false, 
-        "thisSixMonth": false, 
-        "thisWeek": false, 
-        "thisYear": false
-      }, 
-      "series": "ou", 
-      "showData": true, 
-      "sortOrder": 0, 
-      "translations": [], 
-      "type": "COLUMN", 
-      "userOrganisationUnit": true, 
-      "userOrganisationUnitChildren": false, 
-      "userOrganisationUnitGrandChildren": false
-    }, 
-    {
-      "aggregationType": "DEFAULT", 
-      "category": "dx", 
-      "categoryDimensions": [], 
-      "categoryOptionGroups": [], 
-      "completedOnly": false, 
-      "created": "2017-01-25T11:54:49.112", 
-      "dataDimensionItems": [
-        {
-          "dataDimensionItemType": "INDICATOR", 
-          "indicator": {
-            "id": "O6wdXKIZ5L2"
-          }
-        }, 
-        {
-          "dataDimensionItemType": "INDICATOR", 
-          "indicator": {
-            "id": "bJty1TJXcPN"
-          }
-        }, 
-        {
-          "dataDimensionItemType": "INDICATOR", 
-          "indicator": {
-            "id": "zG6feyqbeI7"
-          }
-        }
-      ], 
-      "dataElementGroups": [], 
-      "description": "[MODIFICATIONS: \nAdd Gender as series dimension. \n END MODIFICATIONS]\nundefined", 
-      "externalAccess": false, 
-      "filterDimensions": [
-        "ou", 
-        "pe"
-      ],
-      "hideEmptyRowItems": "NONE",
-      "hideEmptyRows": false, 
-      "hideLegend": false, 
-      "hideSubtitle": false, 
-      "hideTitle": false, 
-      "id": "W9BIjYTO9Py", 
-      "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2017-01-25T11:54:49.112", 
-      "name": "HIV: HIV cascade by gender - last 3 months", 
-      "organisationUnitGroups": [], 
-      "organisationUnitLevels": [], 
-      "organisationUnits": [], 
-      "periods": [], 
-      "publicAccess": "r-------", 
-      "rangeAxisLabel": "PLHIV", 
-      "regressionType": "NONE", 
-      "relativePeriods": {
-        "last12Months": false, 
-        "last12Weeks": false, 
-        "last2SixMonths": false, 
-        "last3Months": true, 
-        "last4Quarters": false, 
-        "last4Weeks": false, 
-        "last52Weeks": false, 
-        "last5FinancialYears": false, 
-        "last5Years": false, 
-        "last6BiMonths": false, 
-        "last6Months": false, 
-        "lastBimonth": false, 
-        "lastFinancialYear": false, 
-        "lastMonth": false, 
-        "lastQuarter": false, 
-        "lastSixMonth": false, 
-        "lastWeek": false, 
-        "lastYear": false, 
-        "monthsLastYear": false, 
-        "monthsThisYear": false, 
-        "quartersLastYear": false, 
-        "quartersThisYear": false, 
-        "thisBimonth": false, 
-        "thisFinancialYear": false, 
-        "thisMonth": false, 
-        "thisQuarter": false, 
-        "thisSixMonth": false, 
-        "thisWeek": false, 
-        "thisYear": false
-      }, 
-      "series": "FRwO58KwwJt", 
-      "showData": true, 
-      "sortOrder": 0, 
-      "translations": [], 
-      "type": "COLUMN", 
-      "userOrganisationUnit": true, 
-      "userOrganisationUnitChildren": false, 
-      "userOrganisationUnitGrandChildren": false
-    }, 
-    {
-      "aggregationType": "DEFAULT", 
-      "category": "dx", 
-      "categoryDimensions": [], 
-      "categoryOptionGroups": [], 
-      "completedOnly": false, 
-      "created": "2017-01-25T11:56:19.371", 
+      "created": "2017-05-29T14:37:56.705", 
       "dataDimensionItems": [
         {
           "dataDimensionItemType": "INDICATOR", 
@@ -453,29 +533,29 @@
         {
           "dataDimensionItemType": "INDICATOR", 
           "indicator": {
-            "id": "qqc4NnWVFL9"
+            "id": "xCZ83jjG3pU"
           }
         }, 
         {
           "dataDimensionItemType": "INDICATOR", 
           "indicator": {
-            "id": "qqc4NnWVFL9"
+            "id": "iNhShbl18dB"
           }
         }
       ], 
       "dataElementGroups": [], 
+      "description": "Cascade with new ANC clients, number of ANC clients with known HIV+ status and on ART, and ANC clients newly tested HIV+ and started on ART in the past 3 months.\nFor tracking recent trends in HIV diagnosis and enrolled on ART among pregnant women attending ANC.\n", 
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
-      ],
-      "hideEmptyRowItems": "NONE",
+      ], 
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
       "hideTitle": false, 
       "id": "iwh4Jox9Ti3", 
       "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2017-01-25T11:56:19.371", 
+      "lastUpdated": "2017-06-17T12:11:02.318", 
       "name": "HIV: HIV cascade PMTCT - last 3 months", 
       "organisationUnitGroups": [], 
       "organisationUnitLevels": [], 
@@ -530,7 +610,7 @@
       "categoryDimensions": [], 
       "categoryOptionGroups": [], 
       "completedOnly": false, 
-      "created": "2016-11-10T15:51:31.309", 
+      "created": "2017-05-29T14:55:49.571", 
       "dataDimensionItems": [
         {
           "dataDimensionItemType": "INDICATOR", 
@@ -546,18 +626,18 @@
         }
       ], 
       "dataElementGroups": [], 
+      "description": "[MODIFY]: \n* Insert dataset completeness [Placeholder] HIV Monthly Facility Report Reporting rate\n* Insert dataset completeness [Placeholder] HIV Monthly Facility Report Reporting rate on time\n [END]\n\n Reporting completeness and timeliness by month over the last 12 months.\nThe completeness and timeliness indicators should be used to monitor performance and assess the validity of the data prior to analysis.", 
       "externalAccess": false, 
       "filterDimensions": [
         "ou"
-      ],
-      "hideEmptyRowItems": "NONE",
+      ], 
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
       "hideTitle": false, 
       "id": "bAyiKfwn3hr", 
       "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2016-11-10T15:51:31.309", 
+      "lastUpdated": "2017-06-17T12:20:27.402", 
       "name": "HIV: HIV completeness and timeliness - last 12 months", 
       "organisationUnitGroups": [], 
       "organisationUnitLevels": [], 
@@ -612,7 +692,7 @@
       "categoryDimensions": [], 
       "categoryOptionGroups": [], 
       "completedOnly": false, 
-      "created": "2015-10-19T13:30:23.532", 
+      "created": "2017-05-29T14:56:04.298", 
       "dataDimensionItems": [
         {
           "dataDimensionItemType": "INDICATOR", 
@@ -622,18 +702,18 @@
         }
       ], 
       "dataElementGroups": [], 
+      "description": "HIV tests performed by month in past 12 months. \nFor tracking trends over time in newly diagnosed PLHIV.", 
       "externalAccess": false, 
       "filterDimensions": [
         "ou"
-      ],
-      "hideEmptyRowItems": "NONE",
+      ], 
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
       "hideTitle": false, 
       "id": "mihJa7mO17e", 
       "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2015-10-20T08:18:58.762", 
+      "lastUpdated": "2017-06-17T11:53:55.075", 
       "name": "HIV: HIV positive tests - last 12 months", 
       "organisationUnitGroups": [], 
       "organisationUnitLevels": [], 
@@ -693,29 +773,29 @@
         {
           "dataDimensionItemType": "INDICATOR", 
           "indicator": {
-            "id": "O6wdXKIZ5L2"
+            "id": "JUvYLsNo43H"
           }
         }, 
         {
           "dataDimensionItemType": "INDICATOR", 
           "indicator": {
-            "id": "O6wdXKIZ5L2"
+            "id": "zqzX3zcosD5"
           }
         }
       ], 
       "dataElementGroups": [], 
+      "description": "PLHIV retention rate (%) and virological suppression rate (%) by month in past 12 months.\nFor tracking trends in sustaining ART over time.", 
       "externalAccess": false, 
       "filterDimensions": [
         "ou"
-      ],
-      "hideEmptyRowItems": "NONE",
+      ], 
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
       "hideTitle": false, 
       "id": "ZbY6wAyA48G", 
       "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2017-01-25T11:49:28.202", 
+      "lastUpdated": "2017-06-17T11:55:54.408", 
       "name": "HIV: HIV retention and viral load suppression rates - last 12 months", 
       "organisationUnitGroups": [], 
       "organisationUnitLevels": [], 
@@ -775,7 +855,7 @@
       "categoryDimensions": [], 
       "categoryOptionGroups": [], 
       "completedOnly": false, 
-      "created": "2015-10-19T13:55:55.212", 
+      "created": "2017-05-29T14:56:21.800", 
       "dataDimensionItems": [
         {
           "dataDimensionItemType": "INDICATOR", 
@@ -785,18 +865,18 @@
         }
       ], 
       "dataElementGroups": [], 
+      "description": "PLHIV new on ART by month in past 12 months.\nFor tracking trends over time in PLHIV newly on ART.", 
       "externalAccess": false, 
       "filterDimensions": [
         "ou"
-      ],
-      "hideEmptyRowItems": "NONE",
+      ], 
       "hideEmptyRows": false, 
       "hideLegend": false, 
       "hideSubtitle": false, 
       "hideTitle": false, 
       "id": "kBYPwcuY2mz", 
       "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2015-10-20T08:17:46.895", 
+      "lastUpdated": "2017-06-17T11:55:15.598", 
       "name": "HIV: Newly started on ART - 12 months", 
       "organisationUnitGroups": [], 
       "organisationUnitLevels": [], 
@@ -848,12 +928,24 @@
   ], 
   "dashboardItems": [
     {
+      "created": "2017-06-16T20:02:32.226", 
+      "id": "ce3CDOo9X06", 
+      "lastUpdated": "2017-06-16T20:02:32.226", 
+      "map": {
+        "id": "COxBWOFmF1G"
+      }, 
+      "reports": [], 
+      "resources": [], 
+      "translations": [], 
+      "users": []
+    }, 
+    {
       "chart": {
         "id": "W9BIjYTO9Py"
       }, 
       "created": "2017-01-25T11:58:50.684", 
       "id": "XnNRP887MgT", 
-      "lastUpdated": "2017-01-25T11:58:50.684", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "NORMAL", 
@@ -866,7 +958,7 @@
       }, 
       "created": "2017-01-25T11:58:48.389", 
       "id": "hhNyLDcbgGt", 
-      "lastUpdated": "2017-01-25T11:58:48.389", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "NORMAL", 
@@ -879,7 +971,7 @@
       }, 
       "created": "2017-01-25T11:57:07.943", 
       "id": "T7mwpk94W8e", 
-      "lastUpdated": "2017-01-25T11:57:07.943", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "NORMAL", 
@@ -889,7 +981,7 @@
     {
       "created": "2017-01-25T11:52:38.954", 
       "id": "m2DhllNjFzI", 
-      "lastUpdated": "2017-01-25T11:52:38.954", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reportTable": {
         "id": "rVQuFoZEf1P"
       }, 
@@ -905,7 +997,7 @@
       }, 
       "created": "2017-01-25T11:50:56.002", 
       "id": "jgWB0k6vQkV", 
-      "lastUpdated": "2017-01-25T11:50:56.002", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "NORMAL", 
@@ -918,7 +1010,7 @@
       }, 
       "created": "2017-01-25T11:49:35.499", 
       "id": "lVxKAHHXyT9", 
-      "lastUpdated": "2017-01-25T11:49:35.499", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "NORMAL", 
@@ -931,7 +1023,7 @@
       }, 
       "created": "2017-01-25T11:47:51.688", 
       "id": "z7D8ABONJtI", 
-      "lastUpdated": "2017-01-25T11:47:51.688", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "NORMAL", 
@@ -944,7 +1036,7 @@
       }, 
       "created": "2017-01-25T11:47:32.943", 
       "id": "oH6otzByBqo", 
-      "lastUpdated": "2017-01-25T11:47:32.943", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "NORMAL", 
@@ -954,7 +1046,7 @@
     {
       "created": "2017-01-25T11:45:54.838", 
       "id": "nNLKrYEUQoV", 
-      "lastUpdated": "2017-01-25T11:45:54.838", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "map": {
         "id": "Uv58NIzkoqr"
       }, 
@@ -967,7 +1059,7 @@
     {
       "created": "2017-01-25T11:38:47.339", 
       "id": "RNZxXvHp87M", 
-      "lastUpdated": "2017-01-25T11:38:47.339", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "map": {
         "id": "tzKiLD9chSJ"
       }, 
@@ -980,7 +1072,7 @@
     {
       "created": "2017-01-25T11:26:31.070", 
       "id": "TzeAmGxay64", 
-      "lastUpdated": "2017-01-25T11:26:31.070", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "map": {
         "id": "uUSXCLStn04"
       }, 
@@ -993,7 +1085,7 @@
     {
       "created": "2017-01-24T16:31:24.950", 
       "id": "B7PCfblu2F1", 
-      "lastUpdated": "2017-01-24T16:31:24.950", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "map": {
         "id": "mShBk3B3Iyz"
       }, 
@@ -1006,7 +1098,7 @@
     {
       "created": "2016-11-11T14:48:54.313", 
       "id": "y14WQqHPxca", 
-      "lastUpdated": "2016-11-11T14:48:54.313", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "map": {
         "id": "pmdaeLXs2fq"
       }, 
@@ -1022,7 +1114,7 @@
       }, 
       "created": "2016-11-10T15:52:30.250", 
       "id": "wkQe3wk2xHW", 
-      "lastUpdated": "2016-11-10T15:52:59.609", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "DOUBLE_WIDTH", 
@@ -1035,20 +1127,7 @@
       }, 
       "created": "2016-11-10T15:52:28.717", 
       "id": "EERcDFCgLsh", 
-      "lastUpdated": "2016-11-10T15:52:28.717", 
-      "reports": [], 
-      "resources": [], 
-      "shape": "NORMAL", 
-      "translations": [], 
-      "users": []
-    }, 
-    {
-      "created": "2016-11-10T12:54:29.350", 
-      "id": "wr8fcVpAn9e", 
-      "lastUpdated": "2016-11-10T12:54:29.350", 
-      "map": {
-        "id": "COxBWOFmF1G"
-      }, 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "NORMAL", 
@@ -1061,7 +1140,7 @@
       }, 
       "created": "2015-10-27T14:38:52.151", 
       "id": "OeHs4EKInOg", 
-      "lastUpdated": "2015-10-27T14:38:52.151", 
+      "lastUpdated": "2017-05-29T08:59:53.153", 
       "reports": [], 
       "resources": [], 
       "shape": "NORMAL", 
@@ -1074,7 +1153,7 @@
       "created": "2015-08-11T07:12:07.504", 
       "dashboardItems": [
         {
-          "id": "wr8fcVpAn9e"
+          "id": "ce3CDOo9X06"
         }, 
         {
           "id": "TzeAmGxay64"
@@ -1127,8 +1206,8 @@
       ], 
       "externalAccess": false, 
       "id": "q9qKbXTDgEh", 
-      "lastUpdated": "2017-01-25T11:59:46.414", 
-      "name": "HIV demo", 
+      "lastUpdated": "2017-06-16T20:02:32.230", 
+      "name": "HIV 90-90-90 Cascade", 
       "publicAccess": "r-------", 
       "translations": []
     }
@@ -1136,10 +1215,11 @@
   "documents": [], 
   "indicatorGroups": [
     {
-      "attributeValues": [], 
-      "created": "2015-05-25T03:53:52.064", 
-      "id": "udCrMpFlegu", 
+      "id": "LU8e2nuExVt", 
       "indicators": [
+        {
+          "id": "JUvYLsNo43H"
+        }, 
         {
           "id": "bD67D0kVEJQ"
         }, 
@@ -1147,34 +1227,7 @@
           "id": "zqzX3zcosD5"
         }, 
         {
-          "id": "JUvYLsNo43H"
-        }
-      ], 
-      "lastUpdated": "2017-01-17T09:34:04.826", 
-      "name": "HIV", 
-      "publicAccess": "r-------", 
-      "translations": []
-    }, 
-    {
-      "id": "PAjS5lfKm6P", 
-      "indicators": [
-        {
-          "id": "iNhShbl18dB"
-        }, 
-        {
-          "id": "xCZ83jjG3pU"
-        }, 
-        {
           "id": "XvcWsuHBsGA"
-        }, 
-        {
-          "id": "O6wdXKIZ5L2"
-        }, 
-        {
-          "id": "bJty1TJXcPN"
-        }, 
-        {
-          "id": "zG6feyqbeI7"
         }, 
         {
           "id": "RjQu6dgcfuX"
@@ -1186,75 +1239,62 @@
           "id": "llzz0kO83Ht"
         }, 
         {
+          "id": "O6wdXKIZ5L2"
+        }, 
+        {
+          "id": "bJty1TJXcPN"
+        }, 
+        {
+          "id": "zG6feyqbeI7"
+        }, 
+        {
           "id": "qqc4NnWVFL9"
+        }, 
+        {
+          "id": "xCZ83jjG3pU"
+        }, 
+        {
+          "id": "iNhShbl18dB"
         }, 
         {
           "id": "mqIVTKwfWl7"
         }
       ], 
-      "lastUpdated": "2017-04-28T09:52:25.061Z", 
-      "name": "[Other indicators]"
+      "lastUpdated": "2017-06-18T10:55:18.518Z", 
+      "name": "WHO HIV module (dashboards)"
     }
   ], 
   "indicatorTypes": [
     {
-      "created": "2015-03-23T00:42:43.716", 
-      "factor": 1, 
-      "id": "kHy61PbChXr", 
-      "lastUpdated": "2015-03-23T00:42:43.716", 
-      "name": "Numerator only", 
-      "number": true, 
-      "translations": []
-    }, 
-    {
-      "created": "2015-03-23T00:41:28.852", 
+      "created": "2015-03-23T01:41:28.852", 
       "factor": 100, 
-      "id": "hmSnCXmLYwt", 
-      "lastUpdated": "2015-03-23T00:41:28.855", 
+      "id": "dKj3No0FqUO", 
+      "lastUpdated": "2017-05-29T21:24:17.901", 
       "name": "Percentage", 
       "number": false, 
-      "translations": []
+      "translations": [
+        {
+          "locale": "fr", 
+          "property": "NAME", 
+          "value": "Pourcentage"
+        }
+      ]
+    }, 
+    {
+      "factor": 1, 
+      "id": "kHy61PbChXr", 
+      "name": "Numerator only", 
+      "number": true, 
+      "translations": [
+        {
+          "locale": "fr", 
+          "property": "NAME", 
+          "value": "Num\u00e9rateur seulement"
+        }
+      ]
     }
   ], 
   "indicators": [
-    {
-      "annualized": false, 
-      "attributeValues": [], 
-      "created": "2016-12-11T21:42:24.972", 
-      "decimals": 0, 
-      "denominator": "1", 
-      "denominatorDescription": "1", 
-      "id": "iNhShbl18dB", 
-      "indicatorType": {
-        "id": "kHy61PbChXr"
-      }, 
-      "lastUpdated": "2016-12-11T21:43:21.976", 
-      "name": "[PLACEHOLDER] ANC clients newly tested HIV+ and started on ART", 
-      "numerator": "-1", 
-      "numeratorDescription": "ANC registrants HIV+ and on ART", 
-      "publicAccess": "r-------", 
-      "shortName": "ANC tested HIV+ and started ART", 
-      "translations": []
-    }, 
-    {
-      "annualized": false, 
-      "attributeValues": [], 
-      "created": "2016-12-11T21:42:24.972", 
-      "decimals": 0, 
-      "denominator": "1", 
-      "denominatorDescription": "1", 
-      "id": "xCZ83jjG3pU", 
-      "indicatorType": {
-        "id": "kHy61PbChXr"
-      }, 
-      "lastUpdated": "2016-12-11T21:42:24.972", 
-      "name": "[PLACEHOLDER] ANC registrants HIV+ and on ART", 
-      "numerator": "-1", 
-      "numeratorDescription": "ANC registrants HIV+ and on ART", 
-      "publicAccess": "r-------", 
-      "shortName": "ANC registrants HIV+ and on ART", 
-      "translations": []
-    }, 
     {
       "annualized": false, 
       "attributeValues": [], 
@@ -1263,13 +1303,10 @@
       "denominatorDescription": "Started ART 12 months ago", 
       "id": "JUvYLsNo43H", 
       "indicatorType": {
-        "id": "hmSnCXmLYwt"
+        "id": "dKj3No0FqUO"
       }, 
-      "lastUpdated": "2017-01-25T11:31:39.196", 
-      "legendSet": {
-        "id": "E3JEIY8Fc1I"
-      }, 
-      "name": "[PLACEHOLDER] ART retention rate after 12 months (%)", 
+      "lastUpdated": "2017-05-28T21:02:05.013", 
+      "name": "[MODIFY] ART retention rate after 12 months (%)", 
       "numerator": "-1", 
       "numeratorDescription": "Retained on ART last 12 months", 
       "publicAccess": "r-------", 
@@ -1285,10 +1322,10 @@
       "description": "Percentage of all HIV tests performed that are HIV positive", 
       "id": "bD67D0kVEJQ", 
       "indicatorType": {
-        "id": "hmSnCXmLYwt"
+        "id": "dKj3No0FqUO"
       }, 
-      "lastUpdated": "2015-11-26T19:13:01.717", 
-      "name": "[PLACEHOLDER] HIV test positivity rate (%)", 
+      "lastUpdated": "2017-05-28T21:02:05.013", 
+      "name": "[MODIFY] HIV test positivity rate (%)", 
       "numerator": "-1", 
       "numeratorDescription": "HIV tests positive", 
       "publicAccess": "r-------", 
@@ -1303,10 +1340,10 @@
       "denominatorDescription": "PLHIV with viral load tests", 
       "id": "zqzX3zcosD5", 
       "indicatorType": {
-        "id": "hmSnCXmLYwt"
+        "id": "dKj3No0FqUO"
       }, 
-      "lastUpdated": "2016-11-11T14:23:48.958", 
-      "name": "[PLACEHOLDER] PLHIV tested that are virologically suppressed (%)", 
+      "lastUpdated": "2017-05-28T21:02:05.013", 
+      "name": "[MODIFY] PLHIV tested that are virologically suppressed (%)", 
       "numerator": "-1", 
       "numeratorDescription": "PLHIV virologically suppressed", 
       "publicAccess": "r-------", 
@@ -1323,62 +1360,12 @@
       "indicatorType": {
         "id": "kHy61PbChXr"
       }, 
-      "name": "[PLACEHOLDER] COMPLETENESS HIV Monthly Facility Report Reporting rate", 
+      "lastUpdated": null, 
+      "name": "[MODIFY] [Placeholder] HIV Monthly Facility Report Reporting rate", 
       "numerator": "-1", 
-      "numeratorDescription": "COMPLETENESS HIV Monthly Facility Report Reporting rate", 
+      "numeratorDescription": "COMPLETENESS [Placeholder] HIV Monthly Facility Report Reporting rate", 
       "publicAccess": "r-------", 
       "shortName": "HIV Monthly Facility Report Reporting rate"
-    }, 
-    {
-      "annualized": false, 
-      "code": null, 
-      "denominator": "1", 
-      "denominatorDescription": "1", 
-      "description": "HIV tests found to be positive", 
-      "id": "O6wdXKIZ5L2", 
-      "indicatorType": {
-        "id": "kHy61PbChXr"
-      }, 
-      "lastUpdated": "", 
-      "name": "[PLACEHOLDER] HIV tests positive", 
-      "numerator": "-1", 
-      "numeratorDescription": "HIV tests positive", 
-      "publicAccess": "r-------", 
-      "shortName": "HIV tests positive"
-    }, 
-    {
-      "annualized": false, 
-      "code": null, 
-      "denominator": "1", 
-      "denominatorDescription": "1", 
-      "description": null, 
-      "id": "bJty1TJXcPN", 
-      "indicatorType": {
-        "id": "kHy61PbChXr"
-      }, 
-      "lastUpdated": "", 
-      "name": "[PLACEHOLDER] PLHIV new on ART", 
-      "numerator": "-1", 
-      "numeratorDescription": "PLHIV new on ART", 
-      "publicAccess": "r-------", 
-      "shortName": "New on ART"
-    }, 
-    {
-      "annualized": false, 
-      "code": null, 
-      "denominator": "1", 
-      "denominatorDescription": "1", 
-      "description": null, 
-      "id": "zG6feyqbeI7", 
-      "indicatorType": {
-        "id": "kHy61PbChXr"
-      }, 
-      "lastUpdated": "", 
-      "name": "[PLACEHOLDER] PLHIV retained on ART last 12 months", 
-      "numerator": "-1", 
-      "numeratorDescription": "PLHIV retained on ART last 12 months", 
-      "publicAccess": "r-------", 
-      "shortName": "Retained on ART last 12 months"
     }, 
     {
       "annualized": false, 
@@ -1391,7 +1378,7 @@
         "id": "kHy61PbChXr"
       }, 
       "lastUpdated": "", 
-      "name": "[PLACEHOLDER] HIV tests positive < 1 years", 
+      "name": "[MODIFY] HIV tests positive < 1 years", 
       "numerator": "-1", 
       "numeratorDescription": "HIV tests positive < 1 years", 
       "publicAccess": "r-------", 
@@ -1408,7 +1395,7 @@
         "id": "kHy61PbChXr"
       }, 
       "lastUpdated": "", 
-      "name": "[PLACEHOLDER] PLHIV new on ART < 1 years", 
+      "name": "[MODIFY] PLHIV new on ART < 1 years", 
       "numerator": "-1", 
       "numeratorDescription": "PLHIV new on ART < 1 years", 
       "publicAccess": "r-------", 
@@ -1425,7 +1412,7 @@
         "id": "kHy61PbChXr"
       }, 
       "lastUpdated": "", 
-      "name": "[PLACEHOLDER] PLHIV retained on ART last 12 months < 1 years", 
+      "name": "[MODIFY] PLHIV retained on ART last 12 months < 1 years", 
       "numerator": "-1", 
       "numeratorDescription": "PLHIV retained on ART last 12 months < 1 years", 
       "publicAccess": "r-------", 
@@ -1436,17 +1423,102 @@
       "code": null, 
       "denominator": "1", 
       "denominatorDescription": "1", 
+      "description": "HIV tests found to be positive", 
+      "id": "O6wdXKIZ5L2", 
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      }, 
+      "lastUpdated": "", 
+      "name": "[MODIFY] HIV tests positive", 
+      "numerator": "-1", 
+      "numeratorDescription": "HIV tests positive", 
+      "publicAccess": "r-------", 
+      "shortName": "HIV tests positive"
+    }, 
+    {
+      "annualized": false, 
+      "code": null, 
+      "denominator": "1", 
+      "denominatorDescription": "1", 
       "description": null, 
+      "id": "bJty1TJXcPN", 
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      }, 
+      "lastUpdated": "", 
+      "name": "[MODIFY] PLHIV new on ART", 
+      "numerator": "-1", 
+      "numeratorDescription": "PLHIV new on ART", 
+      "publicAccess": "r-------", 
+      "shortName": "New on ART"
+    }, 
+    {
+      "annualized": false, 
+      "code": null, 
+      "denominator": "1", 
+      "denominatorDescription": "1", 
+      "description": null, 
+      "id": "zG6feyqbeI7", 
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      }, 
+      "lastUpdated": "", 
+      "name": "[MODIFY] PLHIV retained on ART last 12 months", 
+      "numerator": "-1", 
+      "numeratorDescription": "PLHIV retained on ART last 12 months", 
+      "publicAccess": "r-------", 
+      "shortName": "Retained on ART last 12 months"
+    }, 
+    {
+      "annualized": false, 
+      "code": null, 
+      "denominator": "1", 
+      "denominatorDescription": "1", 
+      "description": "Number of ANC clients (pregnant women) who make at least one ANC visit.", 
       "id": "qqc4NnWVFL9", 
       "indicatorType": {
         "id": "kHy61PbChXr"
       }, 
       "lastUpdated": "", 
-      "name": "[PLACEHOLDER] ANC 1st visit total", 
+      "name": "[MODIFY] ANC 1st visits", 
       "numerator": "-1", 
-      "numeratorDescription": "ANC 1st visit total", 
+      "numeratorDescription": "ANC 1st visits", 
       "publicAccess": "r-------", 
-      "shortName": "ANC 1st visit total"
+      "shortName": "ANC 1st visit"
+    }, 
+    {
+      "annualized": false, 
+      "code": null, 
+      "denominator": "1", 
+      "denominatorDescription": "1", 
+      "description": "Number of ANC clients who are HIV positive and on ART.", 
+      "id": "xCZ83jjG3pU", 
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      }, 
+      "lastUpdated": "", 
+      "name": "[MODIFY] ANC clients that are HIV+ and on ART", 
+      "numerator": "-1", 
+      "numeratorDescription": "ANC clients that are HIV+ and on ART", 
+      "publicAccess": "r-------", 
+      "shortName": "ANC clients HIV+ and on ART"
+    }, 
+    {
+      "annualized": false, 
+      "code": null, 
+      "denominator": "1", 
+      "denominatorDescription": "1", 
+      "description": "Number of ANC clients who tested HIV positive as part of ANC and started on ART", 
+      "id": "iNhShbl18dB", 
+      "indicatorType": {
+        "id": "kHy61PbChXr"
+      }, 
+      "lastUpdated": "", 
+      "name": "[MODIFY] ANC clients newly tested HIV positive and started on ART", 
+      "numerator": "-1", 
+      "numeratorDescription": "ANC clients newly tested HIV positive and started on ART", 
+      "publicAccess": "r-------", 
+      "shortName": "ANC newly tested HIV+ and started ART"
     }, 
     {
       "annualized": false, 
@@ -1459,7 +1531,7 @@
         "id": "kHy61PbChXr"
       }, 
       "lastUpdated": "", 
-      "name": "[PLACEHOLDER] PLHIV currently on ART", 
+      "name": "[MODIFY] PLHIV currently on ART", 
       "numerator": "-1", 
       "numeratorDescription": "PLHIV currently on ART", 
       "publicAccess": "r-------", 
@@ -1471,38 +1543,46 @@
       "attributeValues": [], 
       "created": "2017-01-25T11:30:59.383", 
       "id": "E3JEIY8Fc1I", 
-      "lastUpdated": "2017-01-25T11:33:35.300", 
+      "lastUpdated": "2017-05-31T14:41:00.246", 
       "legends": [
         {
-          "id": "munxvnWxAxL"
+          "id": "MICO0PNR8qj"
         }, 
         {
-          "id": "LQguxpGpfvO"
+          "id": "ZPwq150IsQ6"
         }, 
         {
-          "id": "dZErYNrOoqH"
+          "id": "hb9rGpJcYhC"
+        }, 
+        {
+          "id": "cahzyLID7Dq"
         }
       ], 
       "name": "HIV retention rate", 
+      "publicAccess": "r-------", 
       "translations": []
     }, 
     {
       "attributeValues": [], 
       "created": "2016-05-31T14:20:29.921", 
       "id": "s1MQfLAnGqk", 
-      "lastUpdated": "2017-01-25T11:36:20.023", 
+      "lastUpdated": "2017-05-31T14:36:07.337", 
       "legends": [
         {
-          "id": "Bnx4JwDqIET"
+          "id": "iyfQqdTrCpG"
         }, 
         {
-          "id": "emFUagqudkI"
+          "id": "XpzA20bJCa5"
         }, 
         {
-          "id": "CdJhiocOUcF"
+          "id": "AATlND4iMY2"
+        }, 
+        {
+          "id": "wq6tDmZbsCt"
         }
       ], 
       "name": "HIV test positivity rate", 
+      "publicAccess": "r-------", 
       "symbolizer": "color", 
       "translations": []
     }, 
@@ -1510,121 +1590,154 @@
       "attributeValues": [], 
       "created": "2017-01-25T11:45:25.436", 
       "id": "PRo0EOMJvN9", 
-      "lastUpdated": "2017-01-25T11:45:25.436", 
+      "lastUpdated": "2017-05-31T14:39:43.206", 
       "legends": [
         {
-          "id": "o5ai8rtFKIA"
+          "id": "xSzZFYFeCMn"
         }, 
         {
-          "id": "yF64fcoAkol"
+          "id": "oDtIdJbNx3f"
         }, 
         {
-          "id": "TRmDyjlXOKk"
+          "id": "CjvW3sf6uXR"
+        }, 
+        {
+          "id": "WUgdeHoAZme"
         }
       ], 
       "name": "HIV viral load suppression", 
+      "publicAccess": "r-------", 
       "translations": []
     }
   ], 
   "legends": [
     {
-      "color": "#ffeda0", 
-      "created": "2017-01-25T11:33:35.296", 
-      "endValue": 70, 
-      "id": "LQguxpGpfvO", 
-      "lastUpdated": "2017-01-25T11:33:35.296", 
-      "name": "0 - 70 %", 
+      "color": "#cc4c02", 
+      "created": "2017-05-31T14:41:00.236", 
+      "endValue": 25, 
+      "id": "hb9rGpJcYhC", 
+      "lastUpdated": "2017-05-31T14:41:00.236", 
+      "name": "0 - 25%", 
       "startValue": 0, 
       "translations": []
     }, 
     {
-      "color": "#ffeda0", 
-      "created": "2017-01-25T11:36:20.018", 
-      "endValue": 5, 
-      "id": "CdJhiocOUcF", 
-      "lastUpdated": "2017-01-25T11:36:20.018", 
-      "name": "0-5 %", 
+      "color": "#cc4c02", 
+      "created": "2017-05-31T14:39:43.174", 
+      "endValue": 25, 
+      "id": "oDtIdJbNx3f", 
+      "lastUpdated": "2017-05-31T14:39:43.174", 
+      "name": "0 - 25%", 
       "startValue": 0, 
       "translations": []
     }, 
     {
-      "color": "#f03b20", 
-      "created": "2017-01-25T11:45:25.429", 
-      "endValue": 70, 
-      "id": "TRmDyjlXOKk", 
-      "lastUpdated": "2017-01-25T11:45:25.429", 
-      "name": "0-70 %", 
-      "startValue": 0, 
-      "translations": []
-    }, 
-    {
-      "color": "#f03b20", 
-      "created": "2017-01-25T11:36:20.018", 
-      "endValue": 100, 
-      "id": "emFUagqudkI", 
-      "lastUpdated": "2017-01-25T11:36:20.018", 
-      "name": "10-100 %", 
+      "color": "#fd8d3c", 
+      "created": "2017-05-31T14:36:07.316", 
+      "endValue": 15, 
+      "id": "XpzA20bJCa5", 
+      "lastUpdated": "2017-05-31T14:36:07.316", 
+      "name": "10 - 15%", 
       "startValue": 10, 
       "translations": []
     }, 
     {
-      "color": "#feb24c", 
-      "created": "2017-01-25T11:36:20.018", 
+      "color": "#e31a1c", 
+      "created": "2017-05-31T14:36:07.316", 
+      "endValue": 100, 
+      "id": "AATlND4iMY2", 
+      "lastUpdated": "2017-05-31T14:36:07.316", 
+      "name": "> 15%", 
+      "startValue": 15, 
+      "translations": []
+    }, 
+    {
+      "color": "#fe9929", 
+      "created": "2017-05-31T14:41:00.236", 
+      "endValue": 50, 
+      "id": "MICO0PNR8qj", 
+      "lastUpdated": "2017-05-31T14:41:00.236", 
+      "name": "25 - 50%", 
+      "startValue": 25, 
+      "translations": []
+    }, 
+    {
+      "color": "#fe9929", 
+      "created": "2017-05-31T14:39:43.175", 
+      "endValue": 50, 
+      "id": "CjvW3sf6uXR", 
+      "lastUpdated": "2017-05-31T14:39:43.175", 
+      "name": "25 - 50%", 
+      "startValue": 25, 
+      "translations": []
+    }, 
+    {
+      "color": "#ffffb2", 
+      "created": "2017-05-31T14:36:07.316", 
+      "endValue": 5, 
+      "id": "wq6tDmZbsCt", 
+      "lastUpdated": "2017-05-31T14:36:07.316", 
+      "name": "< 5%", 
+      "startValue": 0, 
+      "translations": []
+    }, 
+    {
+      "color": "#fed98e", 
+      "created": "2017-05-31T14:41:00.236", 
+      "endValue": 75, 
+      "id": "ZPwq150IsQ6", 
+      "lastUpdated": "2017-05-31T14:41:00.236", 
+      "name": "50 - 75%", 
+      "startValue": 50, 
+      "translations": []
+    }, 
+    {
+      "color": "#fed98e", 
+      "created": "2017-05-31T14:39:43.175", 
+      "endValue": 75, 
+      "id": "WUgdeHoAZme", 
+      "lastUpdated": "2017-05-31T14:39:43.175", 
+      "name": "50 - 75%", 
+      "startValue": 50, 
+      "translations": []
+    }, 
+    {
+      "color": "#fecc5c", 
+      "created": "2017-05-31T14:36:07.316", 
       "endValue": 10, 
-      "id": "Bnx4JwDqIET", 
-      "lastUpdated": "2017-01-25T11:36:20.018", 
-      "name": "5-10 %", 
+      "id": "iyfQqdTrCpG", 
+      "lastUpdated": "2017-05-31T14:36:07.316", 
+      "name": "5 - 10%", 
       "startValue": 5, 
       "translations": []
     }, 
     {
-      "color": "#feb24c", 
-      "created": "2017-01-25T11:45:25.429", 
-      "endValue": 90, 
-      "id": "o5ai8rtFKIA", 
-      "lastUpdated": "2017-01-25T11:45:25.429", 
-      "name": "70-90 %", 
-      "startValue": 70, 
-      "translations": []
-    }, 
-    {
-      "color": "#feb24c", 
-      "created": "2017-01-25T11:33:35.296", 
-      "endValue": 90, 
-      "id": "dZErYNrOoqH", 
-      "lastUpdated": "2017-01-25T11:33:35.296", 
-      "name": "70-90 %", 
-      "startValue": 70, 
-      "translations": []
-    }, 
-    {
-      "color": "#ffeda0", 
-      "created": "2017-01-25T11:45:25.429", 
+      "color": "#ffffd4", 
+      "created": "2017-05-31T14:41:00.236", 
       "endValue": 100, 
-      "id": "yF64fcoAkol", 
-      "lastUpdated": "2017-01-25T11:45:25.429", 
-      "name": "90-100 %", 
-      "startValue": 90, 
+      "id": "cahzyLID7Dq", 
+      "lastUpdated": "2017-05-31T14:41:00.236", 
+      "name": "75 - 100%", 
+      "startValue": 75, 
       "translations": []
     }, 
     {
-      "color": "#f03b20", 
-      "created": "2017-01-25T11:33:35.296", 
+      "color": "#ffffd4", 
+      "created": "2017-05-31T14:39:43.175", 
       "endValue": 100, 
-      "id": "munxvnWxAxL", 
-      "lastUpdated": "2017-01-25T11:33:35.296", 
-      "name": "90-100 %", 
-      "startValue": 90, 
+      "id": "xSzZFYFeCMn", 
+      "lastUpdated": "2017-05-31T14:39:43.175", 
+      "name": "75 - 100%", 
+      "startValue": 75, 
       "translations": []
     }
   ], 
   "mapViews": [
     {
       "attributeDimensions": [], 
-      "classes": 3, 
+      "classes": 5, 
       "colorHigh": "00ff00", 
       "colorLow": "ff0000", 
-      "colorScale": "#fff7bc,#fec44f,#d95f0e", 
       "columnDimensions": [
         "dx"
       ], 
@@ -1633,23 +1746,399 @@
         {
           "dataDimensionItemType": "INDICATOR", 
           "indicator": {
-            "id": "mqIVTKwfWl7"
+            "id": "bD67D0kVEJQ"
           }
         }
-      ],
-
+      ], 
       "dataElementDimensions": [], 
       "eventClustering": false, 
       "eventPointRadius": 0, 
       "hidden": false, 
-      "id": "dnROMKtWls7", 
+      "id": "JJLX0DhVYI0", 
+      "itemOrganisationUnitGroups": [], 
+      "labelFontColor": "##000000", 
+      "labelFontSize": "11px", 
+      "labelFontStyle": "normal", 
+      "labelFontWeight": "normal", 
+      "labels": false, 
+      "lastUpdated": "2017-05-29T08:59:52.899", 
+      "layer": "thematic1", 
+      "legendSet": {
+        "id": "s1MQfLAnGqk"
+      }, 
+      "method": 1, 
+      "opacity": 0.8, 
+      "organisationUnitLevels": [], 
+      "organisationUnits": [], 
+      "periods": [], 
+      "radiusHigh": 15, 
+      "radiusLow": 5, 
+      "relativePeriods": {
+        "last12Months": false, 
+        "last12Weeks": false, 
+        "last2SixMonths": false, 
+        "last3Months": false, 
+        "last4Quarters": false, 
+        "last4Weeks": false, 
+        "last52Weeks": false, 
+        "last5FinancialYears": false, 
+        "last5Years": false, 
+        "last6BiMonths": false, 
+        "last6Months": false, 
+        "lastBimonth": false, 
+        "lastFinancialYear": false, 
+        "lastMonth": true, 
+        "lastQuarter": false, 
+        "lastSixMonth": false, 
+        "lastWeek": false, 
+        "lastYear": false, 
+        "monthsLastYear": false, 
+        "monthsThisYear": false, 
+        "quartersLastYear": false, 
+        "quartersThisYear": false, 
+        "thisBimonth": false, 
+        "thisFinancialYear": false, 
+        "thisMonth": false, 
+        "thisQuarter": false, 
+        "thisSixMonth": false, 
+        "thisWeek": false, 
+        "thisYear": false
+      }, 
+      "translations": [], 
+      "userOrganisationUnit": false, 
+      "userOrganisationUnitChildren": false, 
+      "userOrganisationUnitGrandChildren": true
+    }, 
+    {
+      "attributeDimensions": [], 
+      "classes": 3, 
+      "colorHigh": "00ff00", 
+      "colorLow": "ff0000", 
+      "columnDimensions": [
+        "dx"
+      ], 
+      "created": "2017-01-25T14:22:29.000", 
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "JUvYLsNo43H"
+          }
+        }
+      ], 
+      "dataElementDimensions": [], 
+      "eventClustering": false, 
+      "eventPointRadius": 0, 
+      "hidden": false, 
+      "id": "n9eNyBbRsyj", 
+      "itemOrganisationUnitGroups": [], 
+      "labelFontColor": "######000000", 
+      "labelFontSize": "11px", 
+      "labelFontStyle": "normal", 
+      "labelFontWeight": "normal", 
+      "labels": false, 
+      "lastUpdated": "2017-05-29T08:59:52.900", 
+      "layer": "thematic1", 
+      "legendSet": {
+        "id": "E3JEIY8Fc1I"
+      }, 
+      "method": 1, 
+      "opacity": 0.8, 
+      "organisationUnitLevels": [], 
+      "organisationUnits": [], 
+      "periods": [], 
+      "radiusHigh": 5, 
+      "radiusLow": 15, 
+      "relativePeriods": {
+        "last12Months": false, 
+        "last12Weeks": false, 
+        "last2SixMonths": false, 
+        "last3Months": false, 
+        "last4Quarters": false, 
+        "last4Weeks": false, 
+        "last52Weeks": false, 
+        "last5FinancialYears": false, 
+        "last5Years": false, 
+        "last6BiMonths": false, 
+        "last6Months": false, 
+        "lastBimonth": false, 
+        "lastFinancialYear": false, 
+        "lastMonth": true, 
+        "lastQuarter": false, 
+        "lastSixMonth": false, 
+        "lastWeek": false, 
+        "lastYear": false, 
+        "monthsLastYear": false, 
+        "monthsThisYear": false, 
+        "quartersLastYear": false, 
+        "quartersThisYear": false, 
+        "thisBimonth": false, 
+        "thisFinancialYear": false, 
+        "thisMonth": false, 
+        "thisQuarter": false, 
+        "thisSixMonth": false, 
+        "thisWeek": false, 
+        "thisYear": false
+      }, 
+      "translations": [], 
+      "userOrganisationUnit": false, 
+      "userOrganisationUnitChildren": false, 
+      "userOrganisationUnitGrandChildren": true
+    }, 
+    {
+      "attributeDimensions": [], 
+      "classes": 5, 
+      "colorHigh": "00ff00", 
+      "colorLow": "ff0000", 
+      "colorScale": "#ffffd4,#fed98e,#fe9929,#d95f0e,#993404", 
+      "columnDimensions": [
+        "dx"
+      ], 
+      "created": "2017-01-25T14:22:29.000", 
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "bJty1TJXcPN"
+          }
+        }
+      ], 
+      "dataElementDimensions": [], 
+      "eventClustering": false, 
+      "eventPointRadius": 0, 
+      "hidden": false, 
+      "id": "QDC4IMfFHlD", 
       "itemOrganisationUnitGroups": [], 
       "labelFontColor": "####000000", 
       "labelFontSize": "11px", 
       "labelFontStyle": "normal", 
       "labelFontWeight": "normal", 
       "labels": false, 
-      "lastUpdated": "2017-01-25T14:22:29.000", 
+      "lastUpdated": "2017-05-29T08:59:52.901", 
+      "layer": "thematic1", 
+      "method": 2, 
+      "opacity": 0.8, 
+      "organisationUnitLevels": [], 
+      "organisationUnits": [], 
+      "periods": [], 
+      "radiusHigh": 15, 
+      "radiusLow": 5, 
+      "relativePeriods": {
+        "last12Months": false, 
+        "last12Weeks": false, 
+        "last2SixMonths": false, 
+        "last3Months": false, 
+        "last4Quarters": false, 
+        "last4Weeks": false, 
+        "last52Weeks": false, 
+        "last5FinancialYears": false, 
+        "last5Years": false, 
+        "last6BiMonths": false, 
+        "last6Months": false, 
+        "lastBimonth": false, 
+        "lastFinancialYear": false, 
+        "lastMonth": true, 
+        "lastQuarter": false, 
+        "lastSixMonth": false, 
+        "lastWeek": false, 
+        "lastYear": false, 
+        "monthsLastYear": false, 
+        "monthsThisYear": false, 
+        "quartersLastYear": false, 
+        "quartersThisYear": false, 
+        "thisBimonth": false, 
+        "thisFinancialYear": false, 
+        "thisMonth": false, 
+        "thisQuarter": false, 
+        "thisSixMonth": false, 
+        "thisWeek": false, 
+        "thisYear": false
+      }, 
+      "translations": [], 
+      "userOrganisationUnit": false, 
+      "userOrganisationUnitChildren": false, 
+      "userOrganisationUnitGrandChildren": true
+    }, 
+    {
+      "attributeDimensions": [], 
+      "classes": 5, 
+      "colorHigh": "00ff00", 
+      "colorLow": "ff0000", 
+      "colorScale": "#ffffd4,#fed98e,#fe9929,#d95f0e,#993404", 
+      "columnDimensions": [
+        "dx"
+      ], 
+      "created": "2017-01-25T14:22:29.000", 
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "O6wdXKIZ5L2"
+          }
+        }
+      ], 
+      "dataElementDimensions": [], 
+      "eventClustering": false, 
+      "eventPointRadius": 0, 
+      "hidden": false, 
+      "id": "DpfXDF2d0KO", 
+      "itemOrganisationUnitGroups": [], 
+      "labelFontColor": "##000000", 
+      "labelFontSize": "11px", 
+      "labelFontStyle": "normal", 
+      "labelFontWeight": "normal", 
+      "labels": false, 
+      "lastUpdated": "2017-05-29T08:59:52.902", 
+      "layer": "thematic1", 
+      "method": 2, 
+      "opacity": 0.8, 
+      "organisationUnitLevels": [], 
+      "organisationUnits": [], 
+      "periods": [], 
+      "radiusHigh": 15, 
+      "radiusLow": 5, 
+      "relativePeriods": {
+        "last12Months": false, 
+        "last12Weeks": false, 
+        "last2SixMonths": false, 
+        "last3Months": false, 
+        "last4Quarters": false, 
+        "last4Weeks": false, 
+        "last52Weeks": false, 
+        "last5FinancialYears": false, 
+        "last5Years": false, 
+        "last6BiMonths": false, 
+        "last6Months": false, 
+        "lastBimonth": false, 
+        "lastFinancialYear": false, 
+        "lastMonth": true, 
+        "lastQuarter": false, 
+        "lastSixMonth": false, 
+        "lastWeek": false, 
+        "lastYear": false, 
+        "monthsLastYear": false, 
+        "monthsThisYear": false, 
+        "quartersLastYear": false, 
+        "quartersThisYear": false, 
+        "thisBimonth": false, 
+        "thisFinancialYear": false, 
+        "thisMonth": false, 
+        "thisQuarter": false, 
+        "thisSixMonth": false, 
+        "thisWeek": false, 
+        "thisYear": false
+      }, 
+      "translations": [], 
+      "userOrganisationUnit": false, 
+      "userOrganisationUnitChildren": false, 
+      "userOrganisationUnitGrandChildren": true
+    }, 
+    {
+      "attributeDimensions": [], 
+      "classes": 5, 
+      "colorHigh": "00ff00", 
+      "colorLow": "ff0000", 
+      "columnDimensions": [
+        "dx"
+      ], 
+      "created": "2017-01-25T14:22:29.000", 
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "zqzX3zcosD5"
+          }
+        }
+      ], 
+      "dataElementDimensions": [], 
+      "eventClustering": false, 
+      "eventPointRadius": 0, 
+      "hidden": false, 
+      "id": "dnROMKtWls7", 
+      "itemOrganisationUnitGroups": [], 
+      "labelFontColor": "#000000", 
+      "labelFontSize": "11px", 
+      "labelFontStyle": "normal", 
+      "labelFontWeight": "normal", 
+      "labels": false, 
+      "lastUpdated": "2017-05-29T08:59:52.903", 
+      "layer": "thematic1", 
+      "legendSet": {
+        "id": "PRo0EOMJvN9"
+      }, 
+      "method": 1, 
+      "opacity": 0.8, 
+      "organisationUnitLevels": [], 
+      "organisationUnits": [], 
+      "periods": [], 
+      "radiusHigh": 15, 
+      "radiusLow": 5, 
+      "relativePeriods": {
+        "last12Months": false, 
+        "last12Weeks": false, 
+        "last2SixMonths": false, 
+        "last3Months": false, 
+        "last4Quarters": false, 
+        "last4Weeks": false, 
+        "last52Weeks": false, 
+        "last5FinancialYears": false, 
+        "last5Years": false, 
+        "last6BiMonths": false, 
+        "last6Months": false, 
+        "lastBimonth": false, 
+        "lastFinancialYear": false, 
+        "lastMonth": true, 
+        "lastQuarter": false, 
+        "lastSixMonth": false, 
+        "lastWeek": false, 
+        "lastYear": false, 
+        "monthsLastYear": false, 
+        "monthsThisYear": false, 
+        "quartersLastYear": false, 
+        "quartersThisYear": false, 
+        "thisBimonth": false, 
+        "thisFinancialYear": false, 
+        "thisMonth": false, 
+        "thisQuarter": false, 
+        "thisSixMonth": false, 
+        "thisWeek": false, 
+        "thisYear": false
+      }, 
+      "translations": [], 
+      "userOrganisationUnit": false, 
+      "userOrganisationUnitChildren": false, 
+      "userOrganisationUnitGrandChildren": true
+    }, 
+    {
+      "attributeDimensions": [], 
+      "classes": 5, 
+      "colorHigh": "00ff00", 
+      "colorLow": "ff0000", 
+      "colorScale": "#ffffd4,#fed98e,#fe9929,#d95f0e,#993404", 
+      "columnDimensions": [
+        "dx"
+      ], 
+      "created": "2017-05-31T14:42:05.050", 
+      "dataDimensionItems": [
+        {
+          "dataDimensionItemType": "INDICATOR", 
+          "indicator": {
+            "id": "mqIVTKwfWl7"
+          }
+        }
+      ], 
+      "dataElementDimensions": [], 
+      "eventClustering": false, 
+      "eventPointRadius": 0, 
+      "hidden": false, 
+      "id": "HBIFwJrDHlt", 
+      "itemOrganisationUnitGroups": [], 
+      "labelFontColor": "#####000000", 
+      "labelFontSize": "11px", 
+      "labelFontStyle": "normal", 
+      "labelFontWeight": "normal", 
+      "labels": false, 
+      "lastUpdated": "2017-05-31T14:42:05.050", 
       "layer": "thematic1", 
       "method": 2, 
       "opacity": 0.8, 
@@ -1697,86 +2186,102 @@
   ], 
   "maps": [
     {
-      "basemap": "googleStreets", 
+      "basemap": "none", 
       "created": "2017-01-25T11:33:06.239", 
+      "description": "Percentage of PLHIV who started ART past 12 months ago who are still on ART today. For ongoing tracking of retention of PLHIV on ART, by geographical location.", 
       "externalAccess": false, 
       "id": "pmdaeLXs2fq", 
-      "lastUpdated": "2017-01-25T11:33:06.242", 
+      "lastUpdated": "2017-06-17T11:45:45.377", 
       "latitude": -67.48885970682863, 
       "longitude": 164.65759277343753, 
       "mapViews": [
-
+        {
+          "id": "n9eNyBbRsyj"
+        }
       ], 
       "name": "HIV: ART retention rate - last month", 
       "publicAccess": "r-------", 
       "zoom": 10
     }, 
     {
-      "basemap": "googleStreets", 
+      "basemap": "none", 
       "created": "2017-01-25T11:25:22.177", 
+      "description": "Number of persons tested positive for HIV in the past month, by geographical location. For identifying recently diagnoses infection trends and to use as denominator for test and treat policy.", 
       "externalAccess": false, 
       "id": "COxBWOFmF1G", 
-      "lastUpdated": "2017-01-25T11:25:22.179", 
+      "lastUpdated": "2017-06-17T11:45:45.377", 
       "latitude": -67.48885970682863, 
       "longitude": 164.65759277343753, 
       "mapViews": [
-
+        {
+          "id": "DpfXDF2d0KO"
+        }
       ], 
       "name": "HIV: HIV positive tests - last month", 
       "publicAccess": "r-------", 
       "zoom": 10
     }, 
     {
-      "basemap": "googleStreets", 
+      "basemap": "none", 
       "created": "2017-01-25T11:34:48.898", 
+      "description": "HIV test positivity rate (%) past month, by geographical location. Provides current situation of newly diagnosed PLHIV.", 
       "externalAccess": false, 
       "id": "mShBk3B3Iyz", 
-      "lastUpdated": "2017-01-25T11:34:48.899", 
+      "lastUpdated": "2017-06-17T11:45:45.377", 
       "latitude": -67.48885970682863, 
       "longitude": 164.65759277343753, 
       "mapViews": [
-
+        {
+          "id": "JJLX0DhVYI0"
+        }
       ], 
       "name": "HIV: HIV test positivity rate - last month", 
       "publicAccess": "r-------", 
       "zoom": 10
     }, 
     {
-      "basemap": "googleStreets", 
+      "basemap": "none", 
       "created": "2017-01-25T11:27:12.110", 
+      "description": "Number of persons newly started on ART in the past month, by geographical location. Denominator for test and treat policy.", 
       "externalAccess": false, 
       "id": "uUSXCLStn04", 
-      "lastUpdated": "2017-01-25T11:27:12.111", 
+      "lastUpdated": "2017-06-17T11:45:45.377", 
       "latitude": -67.48885970682863, 
       "longitude": 164.65690612792972, 
       "mapViews": [
-
+        {
+          "id": "QDC4IMfFHlD"
+        }
       ], 
       "name": "HIV: Newly started on ART - last month", 
       "publicAccess": "r-------", 
       "zoom": 10
     }, 
     {
-      "basemap": "googleStreets", 
-      "created": "2017-01-25T11:38:23.387", 
+      "basemap": "none", 
+      "created": "2017-05-31T14:42:05.050", 
+      "description": "PLHIV currently on ART as of last month, by geographical location. Provides current situation of ART.", 
       "externalAccess": false, 
       "id": "tzKiLD9chSJ", 
-      "lastUpdated": "2017-01-25T11:38:23.387", 
-      "latitude": -67.48885970682863, 
-      "longitude": 164.65759277343753, 
+      "lastUpdated": "2017-06-17T11:45:45.377", 
+      "latitude": -67.48912259657327, 
+      "longitude": 164.65690612792972, 
       "mapViews": [
-
+        {
+          "id": "HBIFwJrDHlt"
+        }
       ], 
       "name": "HIV: PLHIV currently on ART - last month", 
       "publicAccess": "r-------", 
       "zoom": 10
     }, 
     {
-      "basemap": "googleStreets", 
+      "basemap": "none", 
       "created": "2017-01-25T11:46:18.324", 
+      "description": "Percentage of PLHIV virologically supressed in past month, by geographical location. Map current effectiveness of ART.", 
       "externalAccess": false, 
       "id": "Uv58NIzkoqr", 
-      "lastUpdated": "2017-01-25T11:46:18.325", 
+      "lastUpdated": "2017-06-17T11:45:45.377", 
       "latitude": -67.48885970682863, 
       "longitude": 164.65759277343753, 
       "mapViews": [
@@ -1793,15 +2298,25 @@
     {
       "aggregationType": "DEFAULT", 
       "categoryDimensions": [], 
-      "categoryOptionGroups": [], 
+      "categoryOptionGroups": [
+        {
+          "id": "bqoVhX2RfG4"
+        }, 
+        {
+          "id": "EVYKU2fIc6G"
+        }, 
+        {
+          "id": "SZJNeRyrh22"
+        }
+      ], 
       "colSubTotals": false, 
       "colTotals": false, 
       "columnDimensions": [
         "ou", 
-        "FRwO58KwwJt"
+        "XxEFGdwxOJ0"
       ], 
       "completedOnly": false, 
-      "created": "2017-01-25T11:52:05.321", 
+      "created": "2017-06-16T20:50:12.502", 
       "cumulative": false, 
       "dataDimensionItems": [
         {
@@ -1813,7 +2328,7 @@
         {
           "dataDimensionItemType": "INDICATOR", 
           "indicator": {
-            "id": "mqIVTKwfWl7"
+            "id": "bD67D0kVEJQ"
           }
         }, 
         {
@@ -1836,19 +2351,18 @@
         }
       ], 
       "dataElementGroups": [], 
-      "description": "[MODIFICATIONS:\n END MODIFICATIONS] \nundefined", 
+      "description": "PLHIV currently on ART (average in the period), Newly diagnosed HIV, PLHIV newly on ART and PLHIV retained on treatment over the past 3 months by gender.\nFor visualising the gender differences in the cascade.", 
       "digitGroupSeparator": "SPACE", 
       "displayDensity": "NORMAL", 
       "externalAccess": false, 
       "filterDimensions": [
         "pe"
       ], 
-      "fontSize": "NORMAL",
-      "hideEmptyRowItems": "NONE",
+      "fontSize": "NORMAL", 
       "hideEmptyRows": false, 
       "id": "rVQuFoZEf1P", 
       "itemOrganisationUnitGroups": [], 
-      "lastUpdated": "2017-01-25T11:52:05.321", 
+      "lastUpdated": "2017-06-17T12:06:10.159", 
       "legendDisplayStyle": "FILL", 
       "name": "HIV: Cascade by gender - last 3 months", 
       "organisationUnitGroups": [], 
