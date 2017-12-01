@@ -26,37 +26,37 @@
         ],
         "apps": [
           {
-                "id": "app_id",
-                "name": "App name",
-                "description": "App description",
-                "appType": "APP",
-                "owner": "app-owner",
-                "developer": {
-                  "name": "developer name",
-                  "organisation": "organisation-name",
-                  "email": "email adddress",
-                  "address": ""
-                },
-                "versions": [
-                  {
-                    "min_platform_version": "2.17",
-                    "max_platform_version": "2.20",
-                    "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                    "demo_url": "http://play.dhis2.org/demo",
-                    "version": "0.1"
-                  }
-                ],
-                "images": [
-                  {
-                    "id": "JDBY7OaNZpJ",
-                    "caption": "Outlier analysis",
-                    "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                    "logo": false,
-                    "created": "2017-08-13T21:41:31.738",
-                    "lastUpdated": "2017-08-13T21:41:45.900"
-                  }
-                ]
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
               }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
         ]
       },
       {
@@ -82,44 +82,44 @@
         ],
         "apps": [
           {
-                "id": "app_id",
-                "name": "App name",
-                "description": "App description",
-                "appType": "APP",
-                "owner": "app-owner",
-                "developer": {
-                  "name": "developer name",
-                  "organisation": "organisation-name",
-                  "email": "email adddress",
-                  "address": ""
-                },
-                "versions": [
-                  {
-                    "min_platform_version": "2.17",
-                    "max_platform_version": "2.20",
-                    "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                    "demo_url": "http://play.dhis2.org/demo",
-                    "version": "0.1"
-                  }
-                ],
-                "images": [
-                  {
-                    "id": "JDBY7OaNZpJ",
-                    "caption": "Outlier analysis",
-                    "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                    "logo": false,
-                    "created": "2017-08-13T21:41:31.738",
-                    "lastUpdated": "2017-08-13T21:41:45.900"
-                  }
-                ]
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
               }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
         ]
       }
     ]
   },
   {
-    "name": "Health systems and disease-specific modules",
-    "description": "Programme specific indicators and data elements | Best practice dashboards, analyses | Aggregate and case-based",
+    "name": "Health systems",
+    "description": "Best practise, Dashboard and analysis",
     "packages": [
       {
         "id": "mortality",
@@ -154,37 +154,37 @@
         ],
         "apps": [
           {
-                "id": "app_id",
-                "name": "App name",
-                "description": "App description",
-                "appType": "APP",
-                "owner": "app-owner",
-                "developer": {
-                  "name": "developer name",
-                  "organisation": "organisation-name",
-                  "email": "email adddress",
-                  "address": ""
-                },
-                "versions": [
-                  {
-                    "min_platform_version": "2.17",
-                    "max_platform_version": "2.20",
-                    "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                    "demo_url": "http://play.dhis2.org/demo",
-                    "version": "0.1"
-                  }
-                ],
-                "images": [
-                  {
-                    "id": "JDBY7OaNZpJ",
-                    "caption": "Outlier analysis",
-                    "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                    "logo": false,
-                    "created": "2017-08-13T21:41:31.738",
-                    "lastUpdated": "2017-08-13T21:41:45.900"
-                  }
-                ]
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
               }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
         ],
         "resources": [
           {
@@ -230,37 +230,195 @@
         ],
         "apps": [
           {
-                "id": "app_id",
-                "name": "App name",
-                "description": "App description",
-                "appType": "APP",
-                "owner": "app-owner",
-                "developer": {
-                  "name": "developer name",
-                  "organisation": "organisation-name",
-                  "email": "email adddress",
-                  "address": ""
-                },
-                "versions": [
-                  {
-                    "min_platform_version": "2.17",
-                    "max_platform_version": "2.20",
-                    "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                    "demo_url": "http://play.dhis2.org/demo",
-                    "version": "0.1"
-                  }
-                ],
-                "images": [
-                  {
-                    "id": "JDBY7OaNZpJ",
-                    "caption": "Outlier analysis",
-                    "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                    "logo": false,
-                    "created": "2017-08-13T21:41:31.738",
-                    "lastUpdated": "2017-08-13T21:41:45.900"
-                  }
-                ]
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
               }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
+        ],
+        "resources": [
+          {
+            "versions": [
+              {
+                "version": "0.1",
+                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Disease-specific modules",
+    "description": "Programme specific indicators and data elements | Best practice dashboards, analyses | Aggregate and case-based",
+    "packages": [
+      {
+        "id": "mortality",
+        "name": "Mortality",
+        "organization": "WHO",
+        "description": "WHO HIV dashboard templates. Include dashboard",
+        "url": "http://www.who.int",
+        "icons": [
+          {
+            "48": "assets/img/mortality.png",
+            "128": "assets/img/mortality.png"
+          }
+        ],
+        "license": {
+          "name": "?",
+          "url": "https://who.int"
+        },
+        "tags": [
+          "Template",
+          "Dashboards",
+          "HIV"
+        ],
+        "metadata": [
+          {
+            "versions": [
+              {
+                "version": "0.1",
+                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+              }
+            ]
+          }
+        ],
+        "apps": [
+          {
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
+              }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
+        ],
+        "resources": [
+          {
+            "versions": [
+              {
+                "version": "0.1",
+                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "morbidity",
+        "name": "Morbidity",
+        "organization": "WHO",
+        "description": "WHO HIV dashboard templates. Include dashboard",
+        "url": "http://www.who.int",
+        "icons": [
+          {
+            "48": "assets/img/morbidity.png",
+            "128": "assets/img/morbidity.png"
+          }
+        ],
+        "license": {
+          "name": "?",
+          "url": "https://who.int"
+        },
+        "tags": [
+          "Template",
+          "Dashboards",
+          "HIV"
+        ],
+        "metadata": [
+          {
+            "versions": [
+              {
+                "version": "0.1",
+                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+              }
+            ]
+          }
+        ],
+        "apps": [
+          {
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
+              }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
         ],
         "resources": [
           {
@@ -306,37 +464,37 @@
         ],
         "apps": [
           {
-                "id": "app_id",
-                "name": "App name",
-                "description": "App description",
-                "appType": "APP",
-                "owner": "app-owner",
-                "developer": {
-                  "name": "developer name",
-                  "organisation": "organisation-name",
-                  "email": "email adddress",
-                  "address": ""
-                },
-                "versions": [
-                  {
-                    "min_platform_version": "2.17",
-                    "max_platform_version": "2.20",
-                    "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                    "demo_url": "http://play.dhis2.org/demo",
-                    "version": "0.1"
-                  }
-                ],
-                "images": [
-                  {
-                    "id": "JDBY7OaNZpJ",
-                    "caption": "Outlier analysis",
-                    "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                    "logo": false,
-                    "created": "2017-08-13T21:41:31.738",
-                    "lastUpdated": "2017-08-13T21:41:45.900"
-                  }
-                ]
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
               }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
         ],
         "resources": [
           {
@@ -382,37 +540,37 @@
         ],
         "apps": [
           {
-                "id": "app_id",
-                "name": "App name",
-                "description": "App description",
-                "appType": "APP",
-                "owner": "app-owner",
-                "developer": {
-                  "name": "developer name",
-                  "organisation": "organisation-name",
-                  "email": "email adddress",
-                  "address": ""
-                },
-                "versions": [
-                  {
-                    "min_platform_version": "2.17",
-                    "max_platform_version": "2.20",
-                    "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                    "demo_url": "http://play.dhis2.org/demo",
-                    "version": "0.1"
-                  }
-                ],
-                "images": [
-                  {
-                    "id": "JDBY7OaNZpJ",
-                    "caption": "Outlier analysis",
-                    "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                    "logo": false,
-                    "created": "2017-08-13T21:41:31.738",
-                    "lastUpdated": "2017-08-13T21:41:45.900"
-                  }
-                ]
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
               }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
         ],
         "resources": [
           {
@@ -458,37 +616,37 @@
         ],
         "apps": [
           {
-                "id": "app_id",
-                "name": "App name",
-                "description": "App description",
-                "appType": "APP",
-                "owner": "app-owner",
-                "developer": {
-                  "name": "developer name",
-                  "organisation": "organisation-name",
-                  "email": "email adddress",
-                  "address": ""
-                },
-                "versions": [
-                  {
-                    "min_platform_version": "2.17",
-                    "max_platform_version": "2.20",
-                    "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                    "demo_url": "http://play.dhis2.org/demo",
-                    "version": "0.1"
-                  }
-                ],
-                "images": [
-                  {
-                    "id": "JDBY7OaNZpJ",
-                    "caption": "Outlier analysis",
-                    "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                    "logo": false,
-                    "created": "2017-08-13T21:41:31.738",
-                    "lastUpdated": "2017-08-13T21:41:45.900"
-                  }
-                ]
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
               }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
         ],
         "resources": [
           {
@@ -586,37 +744,37 @@
         ],
         "apps": [
           {
-                "id": "app_id",
-                "name": "App name",
-                "description": "App description",
-                "appType": "APP",
-                "owner": "app-owner",
-                "developer": {
-                  "name": "developer name",
-                  "organisation": "organisation-name",
-                  "email": "email adddress",
-                  "address": ""
-                },
-                "versions": [
-                  {
-                    "min_platform_version": "2.17",
-                    "max_platform_version": "2.20",
-                    "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                    "demo_url": "http://play.dhis2.org/demo",
-                    "version": "0.1"
-                  }
-                ],
-                "images": [
-                  {
-                    "id": "JDBY7OaNZpJ",
-                    "caption": "Outlier analysis",
-                    "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                    "logo": false,
-                    "created": "2017-08-13T21:41:31.738",
-                    "lastUpdated": "2017-08-13T21:41:45.900"
-                  }
-                ]
+            "id": "app_id",
+            "name": "App name",
+            "description": "App description",
+            "appType": "APP",
+            "owner": "app-owner",
+            "developer": {
+              "name": "developer name",
+              "organisation": "organisation-name",
+              "email": "email adddress",
+              "address": ""
+            },
+            "versions": [
+              {
+                "min_platform_version": "2.17",
+                "max_platform_version": "2.20",
+                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                "demo_url": "http://play.dhis2.org/demo",
+                "version": "0.1"
               }
+            ],
+            "images": [
+              {
+                "id": "JDBY7OaNZpJ",
+                "caption": "Outlier analysis",
+                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                "logo": false,
+                "created": "2017-08-13T21:41:31.738",
+                "lastUpdated": "2017-08-13T21:41:45.900"
+              }
+            ]
+          }
         ],
         "resources": [
           {
