@@ -1,792 +1,797 @@
-[
-  {
-    "name": "Standards for measurement",
-    "description": "Core indicators and metadata | Data quality metrics",
-    "packages": [
-      {
-        "id": "metabase",
-        "name": "Metadata Repository",
-        "organization": "WHO",
-        "description": "<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/metadata-repo.png",
-            "128": "assets/img/metadata-repo.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
+{
+  "packageGroups": [
+    {
+      "id": "standard_for_measurement",
+      "name": "Standards for measurement",
+      "description": "Core indicators and metadata | Data quality metrics",
+      "packages": [
+        {
+          "id": "metabase",
+          "name": "Metadata Repository",
+          "organization": "WHO",
+          "description": "<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/metadata-repo.png",
+              "128": "assets/img/metadata-repo.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ]
         },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "dqa",
-        "name": "Data Quality Review",
-        "organization": "WHO",
-        "description": "",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/data-quality.png",
-            "128": "assets/img/data-quality.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
+        {
+          "id": "dqa",
+          "name": "Data Quality Review",
+          "organization": "WHO",
+          "description": "",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/data-quality.png",
+              "128": "assets/img/data-quality.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "health_systems",
+      "name": "Health systems",
+      "description": "Best practise, Dashboard and analysis",
+      "packages": [
+        {
+          "id": "mortality",
+          "name": "Mortality",
+          "organization": "WHO",
+          "description": "WHO HIV dashboard templates. Include dashboard",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/mortality.png",
+              "128": "assets/img/mortality.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "metadata": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ],
+          "resources": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ]
         },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Health systems",
-    "description": "Best practise, Dashboard and analysis",
-    "packages": [
-      {
-        "id": "mortality",
-        "name": "Mortality",
-        "organization": "WHO",
-        "description": "WHO HIV dashboard templates. Include dashboard",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/mortality.png",
-            "128": "assets/img/mortality.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
+        {
+          "id": "morbidity",
+          "name": "Morbidity",
+          "organization": "WHO",
+          "description": "WHO HIV dashboard templates. Include dashboard",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/morbidity.png",
+              "128": "assets/img/morbidity.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "metadata": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ],
+          "resources": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disease_specific",
+      "name": "Disease-specific modules",
+      "description": "Programme specific indicators and data elements | Best practice dashboards, analyses | Aggregate and case-based",
+      "packages": [
+        {
+          "id": "mortality",
+          "name": "Mortality",
+          "organization": "WHO",
+          "description": "WHO HIV dashboard templates. Include dashboard",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/mortality.png",
+              "128": "assets/img/mortality.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "metadata": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ],
+          "resources": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ]
         },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "metadata": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ],
-        "resources": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "morbidity",
-        "name": "Morbidity",
-        "organization": "WHO",
-        "description": "WHO HIV dashboard templates. Include dashboard",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/morbidity.png",
-            "128": "assets/img/morbidity.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
+        {
+          "id": "morbidity",
+          "name": "Morbidity",
+          "organization": "WHO",
+          "description": "WHO HIV dashboard templates. Include dashboard",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/morbidity.png",
+              "128": "assets/img/morbidity.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "metadata": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ],
+          "resources": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ]
         },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "metadata": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ],
-        "resources": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Disease-specific modules",
-    "description": "Programme specific indicators and data elements | Best practice dashboards, analyses | Aggregate and case-based",
-    "packages": [
-      {
-        "id": "mortality",
-        "name": "Mortality",
-        "organization": "WHO",
-        "description": "WHO HIV dashboard templates. Include dashboard",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/mortality.png",
-            "128": "assets/img/mortality.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
+        {
+          "id": "hiv-aids",
+          "name": "HIV/AIDS",
+          "organization": "WHO",
+          "description": "WHO HIV dashboard templates. Include dashboard",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/HIV.png",
+              "128": "assets/img/HIV.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "metadata": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ],
+          "resources": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ]
         },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "metadata": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ],
-        "resources": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "morbidity",
-        "name": "Morbidity",
-        "organization": "WHO",
-        "description": "WHO HIV dashboard templates. Include dashboard",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/morbidity.png",
-            "128": "assets/img/morbidity.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
+        {
+          "id": "tuberculosis",
+          "name": "Tuberculosis",
+          "organization": "WHO",
+          "description": "WHO HIV dashboard templates. Include dashboard",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/tuberculosis.png",
+              "128": "assets/img/tuberculosis.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "metadata": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ],
+          "resources": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ]
         },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "metadata": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ],
-        "resources": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "hiv-aids",
-        "name": "HIV/AIDS",
-        "organization": "WHO",
-        "description": "WHO HIV dashboard templates. Include dashboard",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/HIV.png",
-            "128": "assets/img/HIV.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
+        {
+          "id": "immunization",
+          "name": "Immunization",
+          "organization": "WHO",
+          "description": "WHO HIV dashboard templates. Include dashboard",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/immunization.png",
+              "128": "assets/img/immunization.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "metadata": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ],
+          "resources": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ]
         },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "metadata": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ],
-        "resources": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tuberculosis",
-        "name": "Tuberculosis",
-        "organization": "WHO",
-        "description": "WHO HIV dashboard templates. Include dashboard",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/tuberculosis.png",
-            "128": "assets/img/tuberculosis.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
+        {
+          "id": "early-warning",
+          "name": "Early warning",
+          "organization": "WHO",
+          "description": "WHO HIV dashboard templates. Include dashboard",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/early-warning.png",
+              "128": "assets/img/early-warning.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "metadata": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "apps": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "resources": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ]
         },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "metadata": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ],
-        "resources": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "immunization",
-        "name": "Immunization",
-        "organization": "WHO",
-        "description": "WHO HIV dashboard templates. Include dashboard",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/immunization.png",
-            "128": "assets/img/immunization.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
-        },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "metadata": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ],
-        "resources": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "early-warning",
-        "name": "Early warning",
-        "organization": "WHO",
-        "description": "WHO HIV dashboard templates. Include dashboard",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/early-warning.png",
-            "128": "assets/img/early-warning.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
-        },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "metadata": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "apps": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "resources": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "malaria",
-        "name": "Malaria",
-        "organization": "WHO",
-        "description": "WHO HIV dashboard templates. Include dashboard",
-        "url": "http://www.who.int",
-        "icons": [
-          {
-            "48": "assets/img/malaria.png",
-            "128": "assets/img/malaria.png"
-          }
-        ],
-        "license": {
-          "name": "?",
-          "url": "https://who.int"
-        },
-        "tags": [
-          "Template",
-          "Dashboards",
-          "HIV"
-        ],
-        "metadata": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ],
-        "apps": [
-          {
-            "id": "app_id",
-            "name": "App name",
-            "description": "App description",
-            "appType": "APP",
-            "owner": "app-owner",
-            "developer": {
-              "name": "developer name",
-              "organisation": "organisation-name",
-              "email": "email adddress",
-              "address": ""
-            },
-            "versions": [
-              {
-                "min_platform_version": "2.17",
-                "max_platform_version": "2.20",
-                "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                "demo_url": "http://play.dhis2.org/demo",
-                "version": "0.1"
-              }
-            ],
-            "images": [
-              {
-                "id": "JDBY7OaNZpJ",
-                "caption": "Outlier analysis",
-                "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                "logo": false,
-                "created": "2017-08-13T21:41:31.738",
-                "lastUpdated": "2017-08-13T21:41:45.900"
-              }
-            ]
-          }
-        ],
-        "resources": [
-          {
-            "versions": [
-              {
-                "version": "0.1",
-                "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-]
+        {
+          "id": "malaria",
+          "name": "Malaria",
+          "organization": "WHO",
+          "description": "WHO HIV dashboard templates. Include dashboard",
+          "url": "http://www.who.int",
+          "icons": [
+            {
+              "48": "assets/img/malaria.png",
+              "128": "assets/img/malaria.png"
+            }
+          ],
+          "license": {
+            "name": "?",
+            "url": "https://who.int"
+          },
+          "tags": [
+            "Template",
+            "Dashboards",
+            "HIV"
+          ],
+          "metadata": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ],
+          "apps": [
+            {
+              "id": "app_id",
+              "name": "App name",
+              "description": "App description",
+              "appType": "APP",
+              "owner": "app-owner",
+              "developer": {
+                "name": "developer name",
+                "organisation": "organisation-name",
+                "email": "email adddress",
+                "address": ""
+              },
+              "versions": [
+                {
+                  "min_platform_version": "2.17",
+                  "max_platform_version": "2.20",
+                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "demo_url": "http://play.dhis2.org/demo",
+                  "version": "0.1"
+                }
+              ],
+              "images": [
+                {
+                  "id": "JDBY7OaNZpJ",
+                  "caption": "Outlier analysis",
+                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "logo": false,
+                  "created": "2017-08-13T21:41:31.738",
+                  "lastUpdated": "2017-08-13T21:41:45.900"
+                }
+              ]
+            }
+          ],
+          "resources": [
+            {
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
