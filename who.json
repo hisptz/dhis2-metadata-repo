@@ -147,53 +147,61 @@
           ],
           "metadataPackages": [
             {
-                    "id": "cod-metadata-registration",
-                    "name": "COD Metadata Registration",
-                    "organization": "WHO",
-                    "description": "",
-                    "url": "http://www.who.int",
-                    "icons": [{
-                        "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                        "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                    }],
-                    "license": {
-                        "name": "?",
-                        "url": "https://who.int"
-                    },
-                    "tags": [
-                        "Template",
-                        "Dashboards",
-                        "HIV"
-                    ],
-                    "versions": [{
-                        "version": "0.1",
-                        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
-                    }]
-                },
-                    {
-                    "id": "cod-metadata-event",
-                    "name": "COD Metadata Event",
-                    "organization": "WHO",
-                    "description": "",
-                    "url": "http://www.who.int",
-                    "icons": [{
-                        "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                        "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                    }],
-                    "license": {
-                        "name": "?",
-                        "url": "https://who.int"
-                    },
-                    "tags": [
-                        "Template",
-                        "Dashboards",
-                        "HIV"
-                    ],
-                    "versions": [{
-                        "version": "0.1",
-                        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
-                    }]
+              "id": "cod-metadata-registration",
+              "name": "COD Metadata Registration",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": [
+                "Template",
+                "Dashboards",
+                "HIV"
+              ],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                }
+              ]
+            },
+            {
+              "id": "cod-metadata-event",
+              "name": "COD Metadata Event",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": [
+                "Template",
+                "Dashboards",
+                "HIV"
+              ],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                }
+              ]
+            }
           ],
           "apps": [
             {
@@ -346,53 +354,61 @@
           ],
           "metadataPackages": [
             {
-                    "id": "cod-metadata-registration",
-                    "name": "COD Metadata Registration",
-                    "organization": "WHO",
-                    "description": "",
-                    "url": "http://www.who.int",
-                    "icons": [{
-                        "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                        "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                    }],
-                    "license": {
-                        "name": "?",
-                        "url": "https://who.int"
-                    },
-                    "tags": [
-                        "Template",
-                        "Dashboards",
-                        "HIV"
-                    ],
-                    "versions": [{
-                        "version": "0.1",
-                        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
-                    }]
-                },
-                    {
-                    "id": "cod-metadata-event",
-                    "name": "COD Metadata Event",
-                    "organization": "WHO",
-                    "description": "",
-                    "url": "http://www.who.int",
-                    "icons": [{
-                        "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                        "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                    }],
-                    "license": {
-                        "name": "?",
-                        "url": "https://who.int"
-                    },
-                    "tags": [
-                        "Template",
-                        "Dashboards",
-                        "HIV"
-                    ],
-                    "versions": [{
-                        "version": "0.1",
-                        "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
-                    }]
+              "id": "cod-metadata-registration",
+              "name": "COD Metadata Registration",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": [
+                "Template",
+                "Dashboards",
+                "HIV"
+              ],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                }
+              ]
+            },
+            {
+              "id": "cod-metadata-event",
+              "name": "COD Metadata Event",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": [
+                "Template",
+                "Dashboards",
+                "HIV"
+              ],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                }
+              ]
+            }
           ],
           "apps": [
             {
@@ -653,55 +669,63 @@
             "HIV"
           ],
           "metadataPackage": [
-          {
-                  "id": "tb",
-                  "name": "TB",
-                  "organization": "WHO",
-                  "description": "",
-                  "url": "http://www.who.int",
-                  "icons": [{
-                      "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                      "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                  }],
-                  "license": {
-                      "name": "?",
-                      "url": "https://who.int"
-                  },
-                  "tags": [
-                      "Template",
-                      "Dashboards",
-                      "HIV"
-                  ],
-                  "versions": [{
-                      "version": "0.1",
-                      "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb/metadata.json"
-                  }]
+            {
+              "id": "tb",
+              "name": "TB",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
               },
-              {
-                  "id": "tb-dashboards",
-                  "name": "TB Dashboards",
-                  "organization": "WHO",
-                  "description": "",
-                  "url": "http://www.who.int",
-                  "icons": [{
-                      "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                      "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                  }],
-                  "license": {
-                      "name": "?",
-                      "url": "https://who.int"
-                  },
-                  "tags": [
-                      "Template",
-                      "Dashboards",
-                      "HIV"
-                  ],
-                  "versions": [{
-                      "version": "0.1",
-                      "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb-dashboard/metadata.json"
-                  }]
-              }
-          ]
+              "tags": [
+                "Template",
+                "Dashboards",
+                "HIV"
+              ],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb/metadata.json"
+                }
+              ]
+            },
+            {
+              "id": "tb-dashboards",
+              "name": "TB Dashboards",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": [
+                "Template",
+                "Dashboards",
+                "HIV"
+              ],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb-dashboard/metadata.json"
+                }
+              ]
+            }
+          ],
           "apps": [
             {
               "id": "app_id",
