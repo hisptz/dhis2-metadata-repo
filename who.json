@@ -561,11 +561,10 @@
           "tags": ["Template", "Dashboards", "HIV"],
           "metadataPackages": [
             {
-              "id": "who-hiv-dash",
-              "name": "[TEST] WHO HIV Dashboards",
+              "id": "hiv-dashboard",
+              "name": "HIV Dashboard",
               "organization": "WHO",
-              "description":
-                "WHO HIV dashboard templates. Include dashboard (with content) and indicators.",
+              "description": "",
               "url": "http://www.who.int",
               "icons": [
                 {
@@ -579,12 +578,12 @@
                 "name": "?",
                 "url": "https://who.int"
               },
-              "tags": ["Template", "Dashboards", "HIV"],
+              "tags": ["Template", "Dashboard", "HIV"],
               "versions": [
                 {
                   "version": "0.1",
                   "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/26/aggregate-hiv-dashboard/metadata.json"
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/hiv-dashboard/metadata.json"
                 }
               ]
             }
@@ -775,6 +774,62 @@
             "url": "https://who.int"
           },
           "tags": ["Template", "Dashboards", "HIV"],
+          "metadataPackages": [
+            {
+              "id": "epi-metadata",
+              "name": "EPI Metadata",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": ["Template", "Metadata", "epi"],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/epi-metadata/metadata.json"
+                }
+              ]
+            },
+            {
+              "id": "epi-dashboard",
+              "name": "EPI Dashboards",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": ["Template", "Dashboards", "epi"],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/epi-dashboard/metadata.json"
+                }
+              ]
+            }
+          ],
           "apps": [
             {
               "id": "app_id",
