@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc02acab-4132-43b3-8241-7107297d9296" name="Default" comment="" />
+    <list default="true" id="bc02acab-4132-43b3-8241-7107297d9296" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/who.json" afterPath="$PROJECT_DIR$/who.json" />
+    </list>
     <ignored path="dhis2-metadata-repo.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +49,8 @@
       <file leaf-file-name="who.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/who.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-882">
-              <caret line="702" column="15" lean-forward="false" selection-start-line="702" selection-start-column="15" selection-end-line="702" selection-end-column="15" />
+            <state relative-caret-position="264">
+              <caret line="884" column="1201" lean-forward="false" selection-start-line="884" selection-start-column="1201" selection-end-line="884" selection-end-column="1201" />
               <folding />
             </state>
           </provider>
@@ -66,10 +69,9 @@
       <file leaf-file-name="demo-packages.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-packages.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
+            <state relative-caret-position="442">
+              <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
               <folding>
-                <element signature="e#26#828#0" expanded="false" />
                 <element signature="e#838#1626#0" expanded="false" />
                 <element signature="e#1632#2372#0" expanded="false" />
                 <element signature="e#2378#3150#0" expanded="false" />
@@ -113,6 +115,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>'</find>
+      <find>hiv</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;</replace>
@@ -139,9 +142,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="29" />
+    <option name="y" value="33" />
+    <option name="width" value="1883" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -165,16 +169,27 @@
               <item name="dhis2-metadata-repo" type="b2602c69:ProjectViewProjectNode" />
               <item name="dhis2-metadata-repo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dhis2-metadata-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhis2-metadata-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dhis2-metadata-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dhis2-metadata-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="repo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projects/metabase2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
@@ -226,15 +241,18 @@
       <workItem from="1512112666593" duration="1236000" />
       <workItem from="1517581985121" duration="3112000" />
       <workItem from="1519074518209" duration="2391000" />
-      <workItem from="1519115074640" duration="1120000" />
+      <workItem from="1519115074640" duration="2772000" />
+      <workItem from="1519155815015" duration="945000" />
+      <workItem from="1519600715266" duration="1037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21185000" />
+    <option name="totallyTimeSpent" value="24819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <frame x="29" y="33" width="1922" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -244,7 +262,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32041883" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32553193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13811281" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -343,7 +361,6 @@
         <state relative-caret-position="364">
           <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
-            <element signature="e#26#828#0" expanded="false" />
             <element signature="e#838#1626#0" expanded="false" />
             <element signature="e#1632#2372#0" expanded="false" />
             <element signature="e#2378#3150#0" expanded="false" />
@@ -671,19 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-packages.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="97" selection-end-column="5" />
-          <folding>
-            <element signature="e#26#828#0" expanded="false" />
-            <element signature="e#838#1626#0" expanded="false" />
-            <element signature="e#1632#2372#0" expanded="false" />
-            <element signature="e#2378#3150#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -692,10 +696,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo-packages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="e#838#1626#0" expanded="false" />
+            <element signature="e#1632#2372#0" expanded="false" />
+            <element signature="e#2378#3150#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/who.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-882">
-          <caret line="702" column="15" lean-forward="false" selection-start-line="702" selection-start-column="15" selection-end-line="702" selection-end-column="15" />
+        <state relative-caret-position="264">
+          <caret line="884" column="1201" lean-forward="false" selection-start-line="884" selection-start-column="1201" selection-end-line="884" selection-end-column="1201" />
           <folding />
         </state>
       </provider>
