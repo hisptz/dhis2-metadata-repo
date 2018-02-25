@@ -9,7 +9,8 @@
           "id": "metabase",
           "name": "Metadata Repository",
           "organization": "WHO",
-          "description": "<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
+          "description":
+            "<p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>",
           "url": "http://www.who.int",
           "icons": [
             {
@@ -21,11 +22,7 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "apps": [
             {
               "id": "app_id",
@@ -43,7 +40,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -52,7 +50,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -77,11 +76,7 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "apps": [
             {
               "id": "app_id",
@@ -99,7 +94,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -108,7 +104,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -140,11 +137,7 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "metadataPackages": [
             {
               "id": "cod-metadata-registration",
@@ -154,23 +147,22 @@
               "url": "http://www.who.int",
               "icons": [
                 {
-                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
               ],
               "license": {
                 "name": "?",
                 "url": "https://who.int"
               },
-              "tags": [
-                "Template",
-                "Dashboards",
-                "HIV"
-              ],
+              "tags": ["Template", "Dashboards", "HIV"],
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
                 }
               ]
             },
@@ -182,23 +174,22 @@
               "url": "http://www.who.int",
               "icons": [
                 {
-                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
               ],
               "license": {
                 "name": "?",
                 "url": "https://who.int"
               },
-              "tags": [
-                "Template",
-                "Dashboards",
-                "HIV"
-              ],
+              "tags": ["Template", "Dashboards", "HIV"],
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
                 }
               ]
             }
@@ -220,7 +211,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -229,7 +221,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -242,7 +235,8 @@
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -264,17 +258,14 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "metadata": [
             {
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -296,7 +287,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -305,7 +297,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -318,7 +311,8 @@
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -329,7 +323,8 @@
     {
       "id": "disease_specific",
       "name": "Disease-specific modules",
-      "description": "Programme specific indicators and data elements | Best practice dashboards, analyses | Aggregate and case-based",
+      "description":
+        "Programme specific indicators and data elements | Best practice dashboards, analyses | Aggregate and case-based",
       "packages": [
         {
           "id": "mortality",
@@ -347,11 +342,7 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "metadataPackages": [
             {
               "id": "cod-metadata-registration",
@@ -361,23 +352,22 @@
               "url": "http://www.who.int",
               "icons": [
                 {
-                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
               ],
               "license": {
                 "name": "?",
                 "url": "https://who.int"
               },
-              "tags": [
-                "Template",
-                "Dashboards",
-                "HIV"
-              ],
+              "tags": ["Template", "Dashboards", "HIV"],
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
                 }
               ]
             },
@@ -389,23 +379,22 @@
               "url": "http://www.who.int",
               "icons": [
                 {
-                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
               ],
               "license": {
                 "name": "?",
                 "url": "https://who.int"
               },
-              "tags": [
-                "Template",
-                "Dashboards",
-                "HIV"
-              ],
+              "tags": ["Template", "Dashboards", "HIV"],
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
                 }
               ]
             }
@@ -427,7 +416,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -436,7 +426,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -449,7 +440,8 @@
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -471,37 +463,33 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "metadataPackages": [
             {
               "id": "who-hiv-dash",
               "name": "[TEST] WHO HIV Dashboards",
               "organization": "WHO",
-              "description": "WHO HIV dashboard templates. Include dashboard (with content) and indicators.",
+              "description":
+                "WHO HIV dashboard templates. Include dashboard (with content) and indicators.",
               "url": "http://www.who.int",
               "icons": [
                 {
-                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
               ],
               "license": {
                 "name": "?",
                 "url": "https://who.int"
               },
-              "tags": [
-                "Template",
-                "Dashboards",
-                "HIV"
-              ],
+              "tags": ["Template", "Dashboards", "HIV"],
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/26/aggregate-hiv-dashboard/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/26/aggregate-hiv-dashboard/metadata.json"
                 }
               ]
             }
@@ -523,7 +511,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -532,7 +521,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -545,7 +535,8 @@
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -567,37 +558,32 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "metadataPackages": [
             {
-              "id": "who-hiv-dash",
-              "name": "[TEST] WHO HIV Dashboards",
+              "id": "hiv-dashboard",
+              "name": "HIV Dashboard",
               "organization": "WHO",
-              "description": "WHO HIV dashboard templates. Include dashboard (with content) and indicators.",
+              "description": "",
               "url": "http://www.who.int",
               "icons": [
                 {
-                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
               ],
               "license": {
                 "name": "?",
                 "url": "https://who.int"
               },
-              "tags": [
-                "Template",
-                "Dashboards",
-                "HIV"
-              ],
+              "tags": ["Template", "Dashboard", "HIV"],
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/26/aggregate-hiv-dashboard/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/hiv-dashboard/metadata.json"
                 }
               ]
             }
@@ -619,7 +605,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -628,7 +615,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -641,7 +629,8 @@
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -663,11 +652,7 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "metadataPackages": [
             {
               "id": "tb",
@@ -677,23 +662,22 @@
               "url": "http://www.who.int",
               "icons": [
                 {
-                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
               ],
               "license": {
                 "name": "?",
                 "url": "https://who.int"
               },
-              "tags": [
-                "Template",
-                "Dashboards",
-                "HIV"
-              ],
+              "tags": ["Template", "Dashboards", "HIV"],
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb/metadata.json"
                 }
               ]
             },
@@ -705,23 +689,22 @@
               "url": "http://www.who.int",
               "icons": [
                 {
-                  "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
                 }
               ],
               "license": {
                 "name": "?",
                 "url": "https://who.int"
               },
-              "tags": [
-                "Template",
-                "Dashboards",
-                "HIV"
-              ],
+              "tags": ["Template", "Dashboards", "HIV"],
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb-dashboard/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb-dashboard/metadata.json"
                 }
               ]
             }
@@ -743,7 +726,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -752,7 +736,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -765,7 +750,8 @@
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -786,10 +772,62 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
+          "tags": ["Template", "Dashboards", "HIV"],
+          "metadataPackages": [
+            {
+              "id": "epi-metadata",
+              "name": "EPI Metadata",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": ["Template", "Metadata", "epi"],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/epi-metadata/metadata.json"
+                }
+              ]
+            },
+            {
+              "id": "epi-dashboard",
+              "name": "EPI Dashboards",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": ["Template", "Dashboards", "epi"],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/epi-dashboard/metadata.json"
+                }
+              ]
+            }
           ],
           "apps": [
             {
@@ -808,7 +846,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -817,7 +856,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -830,7 +870,8 @@
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -852,17 +893,14 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "apps": [
             {
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -872,7 +910,8 @@
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
@@ -894,11 +933,7 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "HIV"
-          ],
+          "tags": ["Template", "Dashboards", "HIV"],
           "apps": [
             {
               "id": "app_id",
@@ -916,7 +951,8 @@
                 {
                   "min_platform_version": "2.17",
                   "max_platform_version": "2.20",
-                  "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                  "download_url":
+                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
                   "demo_url": "http://play.dhis2.org/demo",
                   "version": "0.1"
                 }
@@ -925,7 +961,8 @@
                 {
                   "id": "JDBY7OaNZpJ",
                   "caption": "Outlier analysis",
-                  "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                  "imageUrl":
+                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
                   "logo": false,
                   "created": "2017-08-13T21:41:31.738",
                   "lastUpdated": "2017-08-13T21:41:45.900"
@@ -938,7 +975,8 @@
               "versions": [
                 {
                   "version": "0.1",
-                  "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                  "href":
+                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
                 }
               ]
             }
