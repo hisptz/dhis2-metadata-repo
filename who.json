@@ -1,1092 +1,765 @@
 {
-  "packageGroups": [
-    {
-      "id": "standard_for_measurement",
-      "name": "Standards for measurement",
-      "description": "Core indicators and metadata | Data quality metrics",
-      "packages": [
-        {
-          "id": "metabase",
-          "name": "Metadata Repository",
-          "organization": "WHO",
-          "description": "",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/metadata-repo.png",
-              "128": "assets/img/metadata-repo.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Metadata Repository"],
-          "apps": [
-            {
-              "id": "app_id",
-              "name": "App name",
-              "description": "App description",
-              "appType": "APP",
-              "owner": "app-owner",
-              "developer": {
-                "name": "developer name",
-                "organisation": "organisation-name",
-                "email": "email adddress",
-                "address": ""
-              },
-              "versions": [
+    "packageGroups": [{
+            "id": "standard_for_measurement",
+            "name": "Standards for measurement",
+            "description": "Core indicators and metadata | Data quality metrics",
+            "packages": [{
+                    "id": "metabase",
+                    "name": "Metadata Repository",
+                    "organization": "WHO",
+                    "description": "",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/metadata-repo.png",
+                        "128": "assets/img/metadata-repo.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Metadata Repository"],
+                    "apps": [{
+                        "id": "app_id",
+                        "name": "App name",
+                        "description": "App description",
+                        "appType": "APP",
+                        "owner": "app-owner",
+                        "developer": {
+                            "name": "developer name",
+                            "organisation": "organisation-name",
+                            "email": "email adddress",
+                            "address": ""
+                        },
+                        "versions": [{
+                            "min_platform_version": "2.17",
+                            "max_platform_version": "2.20",
+                            "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                            "demo_url": "http://play.dhis2.org/demo",
+                            "version": "0.1"
+                        }],
+                        "images": [{
+                            "id": "JDBY7OaNZpJ",
+                            "caption": "Outlier analysis",
+                            "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                            "logo": false,
+                            "created": "2017-08-13T21:41:31.738",
+                            "lastUpdated": "2017-08-13T21:41:45.900"
+                        }]
+                    }]
+                },
                 {
-                  "min_platform_version": "2.17",
-                  "max_platform_version": "2.20",
-                  "download_url":
-                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                  "demo_url": "http://play.dhis2.org/demo",
-                  "version": "0.1"
+                    "id": "dqa",
+                    "name": "Data Quality Review",
+                    "organization": "WHO",
+                    "description": "",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/data-quality.png",
+                        "128": "assets/img/data-quality.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Data Quality Review"],
+                    "apps": [{
+                        "id": "app_id",
+                        "name": "App name",
+                        "description": "App description",
+                        "appType": "APP",
+                        "owner": "app-owner",
+                        "developer": {
+                            "name": "developer name",
+                            "organisation": "organisation-name",
+                            "email": "email adddress",
+                            "address": ""
+                        },
+                        "versions": [{
+                            "min_platform_version": "2.17",
+                            "max_platform_version": "2.20",
+                            "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                            "demo_url": "http://play.dhis2.org/demo",
+                            "version": "0.1"
+                        }],
+                        "images": [{
+                            "id": "JDBY7OaNZpJ",
+                            "caption": "Outlier analysis",
+                            "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                            "logo": false,
+                            "created": "2017-08-13T21:41:31.738",
+                            "lastUpdated": "2017-08-13T21:41:45.900"
+                        }]
+                    }]
                 }
-              ],
-              "images": [
-                {
-                  "id": "JDBY7OaNZpJ",
-                  "caption": "Outlier analysis",
-                  "imageUrl":
-                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                  "logo": false,
-                  "created": "2017-08-13T21:41:31.738",
-                  "lastUpdated": "2017-08-13T21:41:45.900"
-                }
-              ]
-            }
-          ]
+            ]
         },
         {
-          "id": "dqa",
-          "name": "Data Quality Review",
-          "organization": "WHO",
-          "description": "",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/data-quality.png",
-              "128": "assets/img/data-quality.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Data Quality Review"],
-          "apps": [
-            {
-              "id": "app_id",
-              "name": "App name",
-              "description": "App description",
-              "appType": "APP",
-              "owner": "app-owner",
-              "developer": {
-                "name": "developer name",
-                "organisation": "organisation-name",
-                "email": "email adddress",
-                "address": ""
-              },
-              "versions": [
+            "id": "cross-cutting",
+            "name": "Cross-cutting",
+            "description": "Best practise, Dashboard and analysis",
+            "packages": [{
+                    "id": "mortality",
+                    "name": "Mortality",
+                    "organization": "WHO",
+                    "description": "WHO HIV dashboard templates. Include dashboard",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/mortality.png",
+                        "128": "assets/img/mortality.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Mortality"],
+                    "metadataPackages": [{
+                            "id": "cod-metadata-registration",
+                            "name": "COD Metadata Registration",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Dashboards", "HIV"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                            }]
+                        },
+                        {
+                            "id": "cod-metadata-event",
+                            "name": "COD Metadata Event",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Dashboards", "HIV"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
+                            }]
+                        }
+                    ],
+                    "apps": [{
+                        "id": "app_id",
+                        "name": "App name",
+                        "description": "App description",
+                        "appType": "APP",
+                        "owner": "app-owner",
+                        "developer": {
+                            "name": "developer name",
+                            "organisation": "organisation-name",
+                            "email": "email adddress",
+                            "address": ""
+                        },
+                        "versions": [{
+                            "min_platform_version": "2.17",
+                            "max_platform_version": "2.20",
+                            "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                            "demo_url": "http://play.dhis2.org/demo",
+                            "version": "0.1"
+                        }],
+                        "images": [{
+                            "id": "JDBY7OaNZpJ",
+                            "caption": "Outlier analysis",
+                            "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                            "logo": false,
+                            "created": "2017-08-13T21:41:31.738",
+                            "lastUpdated": "2017-08-13T21:41:45.900"
+                        }]
+                    }],
+                    "resources": []
+                },
                 {
-                  "min_platform_version": "2.17",
-                  "max_platform_version": "2.20",
-                  "download_url":
-                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                  "demo_url": "http://play.dhis2.org/demo",
-                  "version": "0.1"
-                }
-              ],
-              "images": [
+                    "id": "morbidity",
+                    "name": "Morbidity",
+                    "organization": "WHO",
+                    "description": "WHO HIV dashboard templates. Include dashboard",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/morbidity.png",
+                        "128": "assets/img/morbidity.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "HIV"],
+                    "metadata": [{
+                        "versions": [{
+                            "version": "0.1",
+                            "href": "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
+                        }]
+                    }],
+                    "apps": [{
+                        "id": "app_id",
+                        "name": "App name",
+                        "description": "App description",
+                        "appType": "APP",
+                        "owner": "app-owner",
+                        "developer": {
+                            "name": "developer name",
+                            "organisation": "organisation-name",
+                            "email": "email adddress",
+                            "address": ""
+                        },
+                        "versions": [{
+                            "min_platform_version": "2.17",
+                            "max_platform_version": "2.20",
+                            "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                            "demo_url": "http://play.dhis2.org/demo",
+                            "version": "0.1"
+                        }],
+                        "images": [{
+                            "id": "JDBY7OaNZpJ",
+                            "caption": "Outlier analysis",
+                            "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                            "logo": false,
+                            "created": "2017-08-13T21:41:31.738",
+                            "lastUpdated": "2017-08-13T21:41:45.900"
+                        }]
+                    }],
+                    "resources": []
+                },
                 {
-                  "id": "JDBY7OaNZpJ",
-                  "caption": "Outlier analysis",
-                  "imageUrl":
-                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                  "logo": false,
-                  "created": "2017-08-13T21:41:31.738",
-                  "lastUpdated": "2017-08-13T21:41:45.900"
+                    "id": "health-systems-managements",
+                    "name": "Health systems management",
+                    "organization": "WHO",
+                    "description": "Health systems managements",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/health-system-management.png",
+                        "128": "assets/img/health-system-management.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Health system management"],
+                    "apps": [{
+                        "versions": [{
+                            "version": "0.1",
+                            "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                        }]
+                    }],
+                    "resources": []
                 }
-              ]
-            }
-          ]
+            ]
+        },
+        {
+            "id": "programme-specific-modules",
+            "name": "Programme specific mododule",
+            "description": "Indicators and data elements",
+            "packages": [{
+                    "id": "hiv-aids",
+                    "name": "HIV/AIDS",
+                    "organization": "WHO",
+                    "description": "<p><span>The overall goal of this module &nbsp;is to analyse, visualise, and report on various elements of HIV programme and facility performance and for patient management and retention.&nbsp; The </span><span>WHO health facility data analysis tool</span><span>&nbsp;provides, analysis and interpretation of information derived from routinely reported data from health facilities.&nbsp; It covers a comprehensive range of </span><span>routine health facility data</span><span>&nbsp;as well as </span><span>coverage of services</span><span>&nbsp;</span><span>of key HIV/AIDS services</span><span>&nbsp;are also described and are critical to public health managers, planners and analysts in their efforts to assess and improve health system performance.</span></p><p><span></span></p><p><span>This output information from the DHIS 2 HIV Module can in turn be used for programme and health facility planning, to monitor and evaluate programme performance as well as to guide management decisions that informed by the analyses and information generated from the DHIS 2 HIV Module.&nbsp; </span></p>",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/HIV.png",
+                        "128": "assets/img/HIV.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "HIV"],
+                    "links": ["http://www.who.int/hiv/topics/me/en/"],
+                    "metadataPackages": [{
+                        "id": "hiv-dashboard",
+                        "name": "HIV Dashboard",
+                        "organization": "WHO",
+                        "description": "",
+                        "url": "http://www.who.int",
+                        "icons": [{
+                            "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                            "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                        }],
+                        "license": {
+                            "name": "?",
+                            "url": "https://who.int"
+                        },
+                        "tags": ["Template", "Dashboard", "HIV"],
+                        "versions": [{
+                            "version": "0.1",
+                            "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/hiv-dashboard/metadata.json"
+                        }]
+                    }],
+                    "apps": [{
+                        "id": "app_id",
+                        "name": "App name",
+                        "description": "App description",
+                        "appType": "APP",
+                        "owner": "app-owner",
+                        "developer": {
+                            "name": "developer name",
+                            "organisation": "organisation-name",
+                            "email": "email adddress",
+                            "address": ""
+                        },
+                        "versions": [{
+                            "min_platform_version": "2.17",
+                            "max_platform_version": "2.20",
+                            "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                            "demo_url": "http://play.dhis2.org/demo",
+                            "version": "0.1"
+                        }],
+                        "images": [{
+                            "id": "JDBY7OaNZpJ",
+                            "caption": "Outlier analysis",
+                            "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                            "logo": false,
+                            "created": "2017-08-13T21:41:31.738",
+                            "lastUpdated": "2017-08-13T21:41:45.900"
+                        }]
+                    }],
+                    "resources": []
+                },
+                {
+                    "id": "immunization",
+                    "name": "Immunization",
+                    "organization": "WHO",
+                    "description": "<p><span>The immunization module for DHIS 2 contains </span></p><ul><li><span>Core and optional indicators for immunization programme monitoring. These need to be adapted to individual countries depending on the vaccines in the national schedule, and monitoring priorities. </span></li><li><span>A standard dashboard with common visualizations, tables, and maps</span></li><li><span>An EPI App, that contains visualizations that could not be implemented within standard DHIS2, such as the monitoring chart and categorization table</span></li><li><span>An export routine that can be used to extract data from DHIS2 in a standardized way</span></li></ul>",
+                    "icons": [{
+                        "48": "assets/img/immunization.png",
+                        "128": "assets/img/immunization.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Mwtadata", "Immunization"],
+                    "metadataPackages": [{
+                            "id": "epi-metadata",
+                            "name": "EPI Metadata",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Metadata", "epi"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/epi-metadata/metadata.json"
+                            }]
+                        },
+                        {
+                            "id": "epi-dashboard",
+                            "name": "EPI Dashboards",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Dashboards", "epi"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/epi-dashboard/metadata.json"
+                            }]
+                        }
+                    ],
+                    "apps": [{
+                        "id": "app_id",
+                        "name": "App name",
+                        "description": "App description",
+                        "appType": "APP",
+                        "owner": "app-owner",
+                        "developer": {
+                            "name": "developer name",
+                            "organisation": "organisation-name",
+                            "email": "email adddress",
+                            "address": ""
+                        },
+                        "versions": [{
+                            "min_platform_version": "2.17",
+                            "max_platform_version": "2.20",
+                            "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                            "demo_url": "http://play.dhis2.org/demo",
+                            "version": "0.1"
+                        }],
+                        "images": [{
+                            "id": "JDBY7OaNZpJ",
+                            "caption": "Outlier analysis",
+                            "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                            "logo": false,
+                            "created": "2017-08-13T21:41:31.738",
+                            "lastUpdated": "2017-08-13T21:41:45.900"
+                        }]
+                    }],
+                    "resources": []
+                },
+                {
+                    "id": "tuberculosis",
+                    "name": "Tuberculosis",
+                    "organization": "WHO",
+                    "description": "<p><span>The tuberculosis (TB) module for DHIS 2 implements an electronic version of the aggregate quarterly reports defined by the minimum recording and reporting standards recommended by WHO. It also calculates indicators based on the data in these reports and displays these indicators in dashboards containing tables, charts and maps.</span></p><p><span>The module includes all the data elements defined in the </span><span>Definitions and reporting framework for tuberculosis (2013 revision, updated December 2014). </span><span>It calculates and visualises indicators as suggested in </span><span>Understanding and using tuberculosis data </span><span>and in </span><span>Standards and benchmarks for tuberculosis surveillance and vital registration systems: Checklist and user guide.</span></p><p><span>The data elements make up&ldquo;typical&rdquo; TB quarterly data collection forms which can be further adapted by adding and/or removing optional indicators and data elements according to country needs.</span></p",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/tuberculosis.png",
+                        "128": "assets/img/tuberculosis.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Metadata", "Tuberculosis", "TB"],
+                    "metadataPackages": [{
+                            "id": "tb",
+                            "name": "TB",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Dashboards", "HIV"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb/metadata.json"
+                            }]
+                        },
+                        {
+                            "id": "tb-dashboards",
+                            "name": "TB Dashboards",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Dashboards", "HIV"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb-dashboard/metadata.json"
+                            }]
+                        }
+                    ],
+                    "apps": [{
+                        "id": "app_id",
+                        "name": "App name",
+                        "description": "App description",
+                        "appType": "APP",
+                        "owner": "app-owner",
+                        "developer": {
+                            "name": "developer name",
+                            "organisation": "organisation-name",
+                            "email": "email adddress",
+                            "address": ""
+                        },
+                        "versions": [{
+                            "min_platform_version": "2.17",
+                            "max_platform_version": "2.20",
+                            "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                            "demo_url": "http://play.dhis2.org/demo",
+                            "version": "0.1"
+                        }],
+                        "images": [{
+                            "id": "JDBY7OaNZpJ",
+                            "caption": "Outlier analysis",
+                            "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                            "logo": false,
+                            "created": "2017-08-13T21:41:31.738",
+                            "lastUpdated": "2017-08-13T21:41:45.900"
+                        }]
+                    }],
+                    "resources": []
+                },
+                {
+                    "id": "malaria",
+                    "name": "Malaria",
+                    "organization": "WHO",
+                    "description": "<p><span>The Malaria Module for DHIS2 provides support to endemic countries on malaria surveillance, from data collection and validation to analysis, interpretation, and dissemination. The same recommendations provided by WHO GMP in their publications have been implemented into the DHIS2 malaria module in the form of a core set of recommended data to be captured, the frequency and disaggregation and at what levels of the health system. Pre-configured data validation rules and a data quality tool accompany these data elements to ensure the quality of the electronically entered data.</span></p><p><span>The package also contains a core set of recommended indicators to track the data and presents it in the form of tables, charts, and maps. Guidance on the interpretation of the charts and graphs is provided in the curriculum and exercises gear towards the strengthening of malaria surveillance at country level.</span></p><p><span>These combined elements not only strengthens malaria surveillance but also serves to harmonize malaria surveillance and reporting across countries. The module is the result of collaboration between WHO, countries and partners.</span></p>",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/malaria.png",
+                        "128": "assets/img/malaria.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Metadata", "Malaria"],
+                    "metadataPackages": [{
+                            "id": "malaria-burden-reduction-metadata",
+                            "name": "Malaria burden reduction metadata",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Metadata", "Malaria", "Burden reduction"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-burden-reduction-metadata/metadata.json"
+                            }]
+                        },
+                        {
+                            "id": "malaria-burden-reduction-dashboard",
+                            "name": "Malaria burden reduction dashboard",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Dashboards", "Malaria", "Burden reduction"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-burden-reduction-dashboard/metadata.json"
+                            }]
+                        },
+                        {
+                            "id": "malaria-elimination-metadata",
+                            "name": "Malaria elimination metadata",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Malaria", "Elimination", "Metadata"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-elimination-metadata/metadata.json"
+                            }]
+                        },
+                        {
+                            "id": "malaria-elimination-dashboard",
+                            "name": "Malaria elimination dashboard",
+                            "organization": "WHO",
+                            "description": "",
+                            "url": "http://www.who.int",
+                            "icons": [{
+                                "48": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                                "128": "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                            }],
+                            "license": {
+                                "name": "?",
+                                "url": "https://who.int"
+                            },
+                            "tags": ["Template", "Dashboards", "Malaria", "Elimination"],
+                            "versions": [{
+                                "version": "0.1",
+                                "href": "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-elimination-dashboard/metadata.json"
+                            }]
+                        }
+                    ],
+                    "apps": [{
+                        "id": "app_id",
+                        "name": "App name",
+                        "description": "App description",
+                        "appType": "APP",
+                        "owner": "app-owner",
+                        "developer": {
+                            "name": "developer name",
+                            "organisation": "organisation-name",
+                            "email": "email adddress",
+                            "address": ""
+                        },
+                        "versions": [{
+                            "min_platform_version": "2.17",
+                            "max_platform_version": "2.20",
+                            "download_url": "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
+                            "demo_url": "http://play.dhis2.org/demo",
+                            "version": "0.1"
+                        }],
+                        "images": [{
+                            "id": "JDBY7OaNZpJ",
+                            "caption": "Outlier analysis",
+                            "imageUrl": "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
+                            "logo": false,
+                            "created": "2017-08-13T21:41:31.738",
+                            "lastUpdated": "2017-08-13T21:41:45.900"
+                        }]
+                    }],
+                    "resources": [{
+                            "id": "malaria9789241503334",
+                            "name": "Disease surveillance for malaria elimination: operational manual",
+                            "type": "LINK",
+                            "url": "http://www.who.int/malaria/publications/atoz/9789241503334/en/"
+                        },
+                        {
+                            "id": "malaria9789241503341",
+                            "name": "Disease surveillance for malaria control: operational manual",
+                            "type": "LINK",
+                            "url": "http://www.who.int/malaria/publications/atoz/9789241503341/en/"
+                        }
+                    ]
+                },
+                {
+                    "id": "early-warning",
+                    "name": "Early warning",
+                    "organization": "WHO",
+                    "description": "WHO HIV dashboard templates. Include dashboard",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/early-warning.png",
+                        "128": "assets/img/early-warning.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Early warning"],
+                    "apps": [{
+                        "versions": [{
+                            "version": "0.1",
+                            "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                        }]
+                    }],
+                    "resources": []
+                },
+                {
+                    "id": "rmncah",
+                    "name": "Reproductive, maternal, newborn, child and adolescent health",
+                    "organization": "WHO",
+                    "description": "",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/rmncah.png",
+                        "128": "assets/img/rmncah.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Metadata", "RMNCAH"],
+                    "apps": [{
+                        "versions": [{
+                            "version": "0.1",
+                            "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                        }]
+                    }],
+                    "resources": []
+                },
+                {
+                    "id": "non-communicable-diseases",
+                    "name": "Noncommunicable diseases",
+                    "organization": "WHO",
+                    "description": "",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/ncds.png",
+                        "128": "assets/img/ncds.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": [
+                        "Template",
+                        "Dashboards",
+                        "Metadata",
+                        "Diseases",
+                        "Noncommunicable"
+                    ],
+                    "apps": [{
+                        "versions": [{
+                            "version": "0.1",
+                            "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                        }]
+                    }],
+                    "resources": []
+                },
+                {
+                    "id": "nutrition",
+                    "name": "Nutrition",
+                    "organization": "WHO",
+                    "description": "",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/nutrition.png",
+                        "128": "assets/img/nutrition.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Metadata", "Nutrition"],
+                    "apps": [{
+                        "versions": [{
+                            "version": "0.1",
+                            "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                        }]
+                    }],
+                    "resources": []
+                },
+                {
+                    "id": "neglected-tropical-diseases",
+                    "name": "Neglected tropical diseases",
+                    "organization": "WHO",
+                    "description": "",
+                    "url": "http://www.who.int",
+                    "icons": [{
+                        "48": "assets/img/ntds.png",
+                        "128": "assets/img/ntds.png"
+                    }],
+                    "license": {
+                        "name": "?",
+                        "url": "https://who.int"
+                    },
+                    "tags": ["Template", "Dashboards", "Metadata", "NTDs"],
+                    "apps": [{
+                        "versions": [{
+                            "version": "0.1",
+                            "href": "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
+                        }]
+                    }],
+                    "resources": []
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": "cross-cutting",
-      "name": "Cross-cutting",
-      "description": "Best practise, Dashboard and analysis",
-      "packages": [
-        {
-          "id": "mortality",
-          "name": "Mortality",
-          "organization": "WHO",
-          "description": "WHO HIV dashboard templates. Include dashboard",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/mortality.png",
-              "128": "assets/img/mortality.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Mortality"],
-          "metadataPackages": [
-            {
-              "id": "cod-metadata-registration",
-              "name": "COD Metadata Registration",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Dashboards", "HIV"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
-                }
-              ]
-            },
-            {
-              "id": "cod-metadata-event",
-              "name": "COD Metadata Event",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Dashboards", "HIV"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/cod-metadata-event/metadata.json"
-                }
-              ]
-            }
-          ],
-          "apps": [
-            {
-              "id": "app_id",
-              "name": "App name",
-              "description": "App description",
-              "appType": "APP",
-              "owner": "app-owner",
-              "developer": {
-                "name": "developer name",
-                "organisation": "organisation-name",
-                "email": "email adddress",
-                "address": ""
-              },
-              "versions": [
-                {
-                  "min_platform_version": "2.17",
-                  "max_platform_version": "2.20",
-                  "download_url":
-                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                  "demo_url": "http://play.dhis2.org/demo",
-                  "version": "0.1"
-                }
-              ],
-              "images": [
-                {
-                  "id": "JDBY7OaNZpJ",
-                  "caption": "Outlier analysis",
-                  "imageUrl":
-                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                  "logo": false,
-                  "created": "2017-08-13T21:41:31.738",
-                  "lastUpdated": "2017-08-13T21:41:45.900"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "morbidity",
-          "name": "Morbidity",
-          "organization": "WHO",
-          "description": "WHO HIV dashboard templates. Include dashboard",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/morbidity.png",
-              "128": "assets/img/morbidity.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "HIV"],
-          "metadata": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ],
-          "apps": [
-            {
-              "id": "app_id",
-              "name": "App name",
-              "description": "App description",
-              "appType": "APP",
-              "owner": "app-owner",
-              "developer": {
-                "name": "developer name",
-                "organisation": "organisation-name",
-                "email": "email adddress",
-                "address": ""
-              },
-              "versions": [
-                {
-                  "min_platform_version": "2.17",
-                  "max_platform_version": "2.20",
-                  "download_url":
-                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                  "demo_url": "http://play.dhis2.org/demo",
-                  "version": "0.1"
-                }
-              ],
-              "images": [
-                {
-                  "id": "JDBY7OaNZpJ",
-                  "caption": "Outlier analysis",
-                  "imageUrl":
-                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                  "logo": false,
-                  "created": "2017-08-13T21:41:31.738",
-                  "lastUpdated": "2017-08-13T21:41:45.900"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "health-systems-managements",
-          "name": "Health systems management",
-          "organization": "WHO",
-          "description": "Health systems managements",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/health-system-management.png",
-              "128": "assets/img/health-system-management.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Health system management"],
-          "apps": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "programme-specific-modules",
-      "name": "Programme specific mododule",
-      "description": "Indicators and data elements",
-      "packages": [
-        {
-          "id": "hiv-aids",
-          "name": "HIV/AIDS",
-          "organization": "WHO",
-          "description":
-            "<p><span>The overall goal of this module &nbsp;is to analyse, visualise, and report on various elements of HIV programme and facility performance and for patient management and retention.&nbsp; The </span><span>WHO health facility data analysis tool</span><span>&nbsp;provides, analysis and interpretation of information derived from routinely reported data from health facilities.&nbsp; It covers a comprehensive range of </span><span>routine health facility data</span><span>&nbsp;as well as </span><span>coverage of services</span><span>&nbsp;</span><span>of key HIV/AIDS services</span><span>&nbsp;are also described and are critical to public health managers, planners and analysts in their efforts to assess and improve health system performance.</span></p><p><span></span></p><p><span>This output information from the DHIS 2 HIV Module can in turn be used for programme and health facility planning, to monitor and evaluate programme performance as well as to guide management decisions that informed by the analyses and information generated from the DHIS 2 HIV Module.&nbsp; </span></p>",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/HIV.png",
-              "128": "assets/img/HIV.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "HIV"],
-          "links": ["http://www.who.int/hiv/topics/me/en/"],
-          "metadataPackages": [
-            {
-              "id": "hiv-dashboard",
-              "name": "HIV Dashboard",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Dashboard", "HIV"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/hiv-dashboard/metadata.json"
-                }
-              ]
-            }
-          ],
-          "apps": [
-            {
-              "id": "app_id",
-              "name": "App name",
-              "description": "App description",
-              "appType": "APP",
-              "owner": "app-owner",
-              "developer": {
-                "name": "developer name",
-                "organisation": "organisation-name",
-                "email": "email adddress",
-                "address": ""
-              },
-              "versions": [
-                {
-                  "min_platform_version": "2.17",
-                  "max_platform_version": "2.20",
-                  "download_url":
-                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                  "demo_url": "http://play.dhis2.org/demo",
-                  "version": "0.1"
-                }
-              ],
-              "images": [
-                {
-                  "id": "JDBY7OaNZpJ",
-                  "caption": "Outlier analysis",
-                  "imageUrl":
-                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                  "logo": false,
-                  "created": "2017-08-13T21:41:31.738",
-                  "lastUpdated": "2017-08-13T21:41:45.900"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "id": "resource_id",
-              "name": "resource name",
-              "type": "XLS"
-            }
-          ]
-        },
-        {
-          "id": "immunization",
-          "name": "Immunization",
-          "organization": "WHO",
-          "description":
-            "<p><span>The immunization module for DHIS 2 contains </span></p><ul><li><span>Core and optional indicators for immunization programme monitoring. These need to be adapted to individual countries depending on the vaccines in the national schedule, and monitoring priorities. </span></li><li><span>A standard dashboard with common visualizations, tables, and maps</span></li><li><span>An EPI App, that contains visualizations that could not be implemented within standard DHIS2, such as the monitoring chart and categorization table</span></li><li><span>An export routine that can be used to extract data from DHIS2 in a standardized way</span></li></ul>",
-          "icons": [
-            {
-              "48": "assets/img/immunization.png",
-              "128": "assets/img/immunization.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Mwtadata", "Immunization"],
-          "metadataPackages": [
-            {
-              "id": "epi-metadata",
-              "name": "EPI Metadata",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Metadata", "epi"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/epi-metadata/metadata.json"
-                }
-              ]
-            },
-            {
-              "id": "epi-dashboard",
-              "name": "EPI Dashboards",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Dashboards", "epi"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/epi-dashboard/metadata.json"
-                }
-              ]
-            }
-          ],
-          "apps": [
-            {
-              "id": "app_id",
-              "name": "App name",
-              "description": "App description",
-              "appType": "APP",
-              "owner": "app-owner",
-              "developer": {
-                "name": "developer name",
-                "organisation": "organisation-name",
-                "email": "email adddress",
-                "address": ""
-              },
-              "versions": [
-                {
-                  "min_platform_version": "2.17",
-                  "max_platform_version": "2.20",
-                  "download_url":
-                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                  "demo_url": "http://play.dhis2.org/demo",
-                  "version": "0.1"
-                }
-              ],
-              "images": [
-                {
-                  "id": "JDBY7OaNZpJ",
-                  "caption": "Outlier analysis",
-                  "imageUrl":
-                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                  "logo": false,
-                  "created": "2017-08-13T21:41:31.738",
-                  "lastUpdated": "2017-08-13T21:41:45.900"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "tuberculosis",
-          "name": "Tuberculosis",
-          "organization": "WHO",
-          "description":
-            "<p><span>The tuberculosis (TB) module for DHIS 2 implements an electronic version of the aggregate quarterly reports defined by the minimum recording and reporting standards recommended by WHO. It also calculates indicators based on the data in these reports and displays these indicators in dashboards containing tables, charts and maps.</span></p><p><span>The module includes all the data elements defined in the </span><span>Definitions and reporting framework for tuberculosis (2013 revision, updated December 2014). </span><span>It calculates and visualises indicators as suggested in </span><span>Understanding and using tuberculosis data </span><span>and in </span><span>Standards and benchmarks for tuberculosis surveillance and vital registration systems: Checklist and user guide.</span></p><p><span>The data elements make up&ldquo;typical&rdquo; TB quarterly data collection forms which can be further adapted by adding and/or removing optional indicators and data elements according to country needs.</span></p",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/tuberculosis.png",
-              "128": "assets/img/tuberculosis.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Metadata", "Tuberculosis", "TB"],
-          "metadataPackages": [
-            {
-              "id": "tb",
-              "name": "TB",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Dashboards", "HIV"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb/metadata.json"
-                }
-              ]
-            },
-            {
-              "id": "tb-dashboards",
-              "name": "TB Dashboards",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Dashboards", "HIV"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/tb-dashboard/metadata.json"
-                }
-              ]
-            }
-          ],
-          "apps": [
-            {
-              "id": "app_id",
-              "name": "App name",
-              "description": "App description",
-              "appType": "APP",
-              "owner": "app-owner",
-              "developer": {
-                "name": "developer name",
-                "organisation": "organisation-name",
-                "email": "email adddress",
-                "address": ""
-              },
-              "versions": [
-                {
-                  "min_platform_version": "2.17",
-                  "max_platform_version": "2.20",
-                  "download_url":
-                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                  "demo_url": "http://play.dhis2.org/demo",
-                  "version": "0.1"
-                }
-              ],
-              "images": [
-                {
-                  "id": "JDBY7OaNZpJ",
-                  "caption": "Outlier analysis",
-                  "imageUrl":
-                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                  "logo": false,
-                  "created": "2017-08-13T21:41:31.738",
-                  "lastUpdated": "2017-08-13T21:41:45.900"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "malaria",
-          "name": "Malaria",
-          "organization": "WHO",
-          "description":
-            "<p><span>The Malaria Module for DHIS2 provides support to endemic countries on malaria surveillance, from data collection and validation to analysis, interpretation, and dissemination. The same recommendations provided by WHO GMP in their publications have been implemented into the DHIS2 malaria module in the form of a core set of recommended data to be captured, the frequency and disaggregation and at what levels of the health system. Pre-configured data validation rules and a data quality tool accompany these data elements to ensure the quality of the electronically entered data.</span></p><p><span>The package also contains a core set of recommended indicators to track the data and presents it in the form of tables, charts, and maps. Guidance on the interpretation of the charts and graphs is provided in the curriculum and exercises gear towards the strengthening of malaria surveillance at country level.</span></p><p><span>These combined elements not only strengthens malaria surveillance but also serves to harmonize malaria surveillance and reporting across countries. The module is the result of collaboration between WHO, countries and partners.</span></p>",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/malaria.png",
-              "128": "assets/img/malaria.png"
-            }
-          ],
-          "links": [
-            "http://www.who.int/malaria/publications/atoz/9789241503334/en/",
-            "http://www.who.int/malaria/publications/atoz/9789241503341/en/"
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Metadata", "Malaria"],
-          "metadataPackages": [
-            {
-              "id": "malaria-burden-reduction-metadata",
-              "name": "Malaria burden reduction metadata",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Metadata", "Malaria", "Burden reduction"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-burden-reduction-metadata/metadata.json"
-                }
-              ]
-            },
-            {
-              "id": "malaria-burden-reduction-dashboard",
-              "name": "Malaria burden reduction dashboard",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Dashboards", "Malaria", "Burden reduction"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-burden-reduction-dashboard/metadata.json"
-                }
-              ]
-            },
-            {
-              "id": "malaria-elimination-metadata",
-              "name": "Malaria elimination metadata",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Malaria", "Elimination", "Metadata"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-elimination-metadata/metadata.json"
-                }
-              ]
-            },
-            {
-              "id": "malaria-elimination-dashboard",
-              "name": "Malaria elimination dashboard",
-              "organization": "WHO",
-              "description": "",
-              "url": "http://www.who.int",
-              "icons": [
-                {
-                  "48":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
-                  "128":
-                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
-                }
-              ],
-              "license": {
-                "name": "?",
-                "url": "https://who.int"
-              },
-              "tags": ["Template", "Dashboards", "Malaria", "Elimination"],
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-elimination-dashboard/metadata.json"
-                }
-              ]
-            }
-          ],
-          "apps": [
-            {
-              "id": "app_id",
-              "name": "App name",
-              "description": "App description",
-              "appType": "APP",
-              "owner": "app-owner",
-              "developer": {
-                "name": "developer name",
-                "organisation": "organisation-name",
-                "email": "email adddress",
-                "address": ""
-              },
-              "versions": [
-                {
-                  "min_platform_version": "2.17",
-                  "max_platform_version": "2.20",
-                  "download_url":
-                    "https://www.dhis2.org/download/appstore/tabular-tracker-capture-219.zip",
-                  "demo_url": "http://play.dhis2.org/demo",
-                  "version": "0.1"
-                }
-              ],
-              "images": [
-                {
-                  "id": "JDBY7OaNZpJ",
-                  "caption": "Outlier analysis",
-                  "imageUrl":
-                    "https://dhis2-appstore.s3.amazonaws.com/images-standard/deff713a-3f27-416b-aaa4-98da9399c0ca.png",
-                  "logo": false,
-                  "created": "2017-08-13T21:41:31.738",
-                  "lastUpdated": "2017-08-13T21:41:45.900"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "early-warning",
-          "name": "Early warning",
-          "organization": "WHO",
-          "description": "WHO HIV dashboard templates. Include dashboard",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/early-warning.png",
-              "128": "assets/img/early-warning.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Early warning"],
-          "apps": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "rmncah",
-          "name":
-            "Reproductive, maternal, newborn, child and adolescent health",
-          "organization": "WHO",
-          "description": "",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/rmncah.png",
-              "128": "assets/img/rmncah.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Metadata", "RMNCAH"],
-          "apps": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "non-communicable-diseases",
-          "name": "Noncommunicable diseases",
-          "organization": "WHO",
-          "description": "",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/ncds.png",
-              "128": "assets/img/ncds.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": [
-            "Template",
-            "Dashboards",
-            "Metadata",
-            "Diseases",
-            "Noncommunicable"
-          ],
-          "apps": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "nutrition",
-          "name": "Nutrition",
-          "organization": "WHO",
-          "description": "",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/nutrition.png",
-              "128": "assets/img/nutrition.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Metadata", "Nutrition"],
-          "apps": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "neglected-tropical-diseases",
-          "name": "Neglected tropical diseases",
-          "organization": "WHO",
-          "description": "",
-          "url": "http://www.who.int",
-          "icons": [
-            {
-              "48": "assets/img/ntds.png",
-              "128": "assets/img/ntds.png"
-            }
-          ],
-          "license": {
-            "name": "?",
-            "url": "https://who.int"
-          },
-          "tags": ["Template", "Dashboards", "Metadata", "NTDs"],
-          "apps": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    ]
 }
