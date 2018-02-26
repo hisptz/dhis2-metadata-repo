@@ -229,17 +229,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         },
         {
           "id": "morbidity",
@@ -305,17 +295,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         },
         {
           "id": "health-systems-managements",
@@ -345,17 +325,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         }
       ]
     },
@@ -448,13 +418,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "id": "resource_id",
-              "name": "resource name",
-              "type": "XLS"
-            }
-          ]
+          "resources": []
         },
         {
           "id": "immunization",
@@ -565,17 +529,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         },
         {
           "id": "tuberculosis",
@@ -687,17 +641,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         },
         {
           "id": "malaria",
@@ -711,10 +655,6 @@
               "48": "assets/img/malaria.png",
               "128": "assets/img/malaria.png"
             }
-          ],
-          "links": [
-            "http://www.who.int/malaria/publications/atoz/9789241503334/en/",
-            "http://www.who.int/malaria/publications/atoz/9789241503341/en/"
           ],
           "license": {
             "name": "?",
@@ -869,13 +809,20 @@
           ],
           "resources": [
             {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
+              "id": "malaria9789241503334",
+              "name":
+                "Disease surveillance for malaria elimination: operational manual",
+              "type": "LINK",
+              "url":
+                "http://www.who.int/malaria/publications/atoz/9789241503334/en/"
+            },
+            {
+              "id": "malaria9789241503341",
+              "name":
+                "Disease surveillance for malaria control: operational manual",
+              "type": "LINK",
+              "url":
+                "http://www.who.int/malaria/publications/atoz/9789241503341/en/"
             }
           ]
         },
@@ -907,17 +854,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         },
         {
           "id": "rmncah",
@@ -948,17 +885,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         },
         {
           "id": "non-communicable-diseases",
@@ -994,17 +921,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         },
         {
           "id": "nutrition",
@@ -1034,17 +951,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         },
         {
           "id": "neglected-tropical-diseases",
@@ -1074,17 +981,7 @@
               ]
             }
           ],
-          "resources": [
-            {
-              "versions": [
-                {
-                  "version": "0.1",
-                  "href":
-                    "https://raw.githubusercontent.co/dhis2-metadata-repo/metadata.json"
-                }
-              ]
-            }
-          ]
+          "resources": []
         }
       ]
     }
