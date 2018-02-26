@@ -937,6 +937,116 @@
             "url": "https://who.int"
           },
           "tags": ["Template", "Dashboards", "HIV"],
+          "metadataPackages": [
+            {
+              "id": "malaria-burden-reduction-metadata",
+              "name": "Malaria burden reduction metadata",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": ["Template", "Metadata", "Malaria", "Burden reduction"],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-burden-reduction-metadata/metadata.json"
+                }
+              ]
+            },
+            {
+              "id": "malaria-burden-reduction-dashboard",
+              "name": "Malaria burden reduction dashboard",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": ["Template", "Dashboards", "Malaria", "Burden reduction"],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-burden-reduction-dashboard/metadata.json"
+                }
+              ]
+            },
+            {
+              "id": "malaria-elimination-metadata",
+              "name": "Malaria elimination metadata",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": ["Template", "Malaria", "Elimination", "Metadata"],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-elimination-metadata/metadata.json"
+                }
+              ]
+            },
+            {
+              "id": "malaria-elimination-dashboard",
+              "name": "Malaria elimination dashboard",
+              "organization": "WHO",
+              "description": "",
+              "url": "http://www.who.int",
+              "icons": [
+                {
+                  "48":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg",
+                  "128":
+                    "http://www.uio.no/om/designmanual/images/1-2-logo-universitetet-i-oslo.jpg"
+                }
+              ],
+              "license": {
+                "name": "?",
+                "url": "https://who.int"
+              },
+              "tags": ["Template", "Dashboards", "Malaria", "Elimination"],
+              "versions": [
+                {
+                  "version": "0.1",
+                  "href":
+                    "https://raw.githubusercontent.com/hisptz/dhis2-metadata-repo/master/repo/demo/malaria-elimination-dashboard/metadata.json"
+                }
+              ]
+            }
+          ],
           "apps": [
             {
               "id": "app_id",
