@@ -968,8 +968,8 @@
           "url": "http://www.who.int",
           "icons": [
             {
-              "48": "assets/img/.png",
-              "128": "assets/img/.png"
+              "48": "assets/img/ncds.png",
+              "128": "assets/img/ncds.png"
             }
           ],
           "license": {
