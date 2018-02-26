@@ -653,7 +653,7 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": ["Template", "Dashboards", "HIV"],
+          "tags": ["Template", "Dashboards", "Metadata", "Tuberculosis", "TB"],
           "metadataPackages": [
             {
               "id": "tb",
@@ -774,7 +774,7 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": ["Template", "Dashboards", "HIV"],
+          "tags": ["Template", "Dashboards", "Mwtadata", "Immunization"],
           "metadataPackages": [
             {
               "id": "epi-metadata",
@@ -936,7 +936,7 @@
             "name": "?",
             "url": "https://who.int"
           },
-          "tags": ["Template", "Dashboards", "HIV"],
+          "tags": ["Template", "Dashboards", "Metadata", "Malaria"],
           "metadataPackages": [
             {
               "id": "malaria-burden-reduction-metadata",
